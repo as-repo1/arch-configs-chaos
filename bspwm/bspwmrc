@@ -1,0 +1,61 @@
+#! /bin/sh
+
+pgrep -x sxhkd >/dev/null || sxhkd &
+
+#nm-applet &
+nm-tray &
+dunst &
+cbatticon &
+flameshot &
+kdeconnect-indicator &
+#if [[ $(xrandr -q | grep 'HDMI1 connected') ]]; then
+#  xrandr --output eDP1 --primary --mode 1366x1080 --rotate normal --output HDMI1 --mode 1920x1080 -r 74.97 --rotate normal --right-of eDP1
+#fi
+
+if [[ $(xrandr -q | grep 'HDMI-1 connected') ]]; then
+	xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 1920x0 -r 75 --rotate normal --output VIRTUAL1 --off
+fi
+
+$HOME/.config/polybar/launch.sh
+#$HOME/.config/polybar2/launch.sh
+dunst-print &
+
+#bspc monitor eDP-1 -d I II VI IV X
+bspc monitor HDMI-1 -d II VII VIII III V I II III
+bspc monitor eDP-1 -d II VII VIII III X
+
+bspc config border_width 2
+bspc config window_gap 10
+
+bspc config split_ratio 0.60
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+
+# ADD-ONS
+# bspc config pointer_follows_focus true
+bspc config focus_follows_pointer true
+
+# Border
+bspc config focused_border_color "#03E47C"
+bspc config normal_border_color "#333F48"
+bspc config active_border_color "#0D4389"
+
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
+#bspc rule -a brave='^2'
+#bspc rule -a Telegramdesktop='^10'
+
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a kate state=floating
+bspc rule -a feh state=floating
+bspc rule -a kitty state=floating
+#bspc rule -a  state=floating
+
+# Polkit
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+nitrogen --restore &
+picom -f
+#mpd &
+#dunst &

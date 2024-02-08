@@ -1,0 +1,230 @@
+{
+  "layer": "top", // Waybar at top layer
+  // "position": "bottom", // Waybar position (top|bottom|left|right)
+  "height": 32, // Waybar height (to be removed for auto height)
+  // "width": 1280, // Waybar width
+  "spacing": 8, // Gaps between modules (4px)
+  "margin": "10 10 0 10", // Waybar margin (top right bottom left)
+  "fixed-center": false, // Center modules
+  // Choose the order of the modules
+  "modules-left": ["wlr/workspaces", "custom/spotify", "network"],
+  "modules-center": ["hyprland/window", "custom/music"],
+  "modules-right": [
+    "custom/notification",
+    "backlight",
+
+    "cpu",
+    "temperature",
+    "memory",
+    "pulseaudio",
+    "clock",
+    "tray",
+    "battery",
+    "custom/power-menu"
+  ],
+  //  Modules configuration
+  "wlr/workspaces": {
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
+    "format": "{name}",
+    "format-icons": {
+      "1": "I",
+      "2": "II",
+      "3": "III",
+      "4": "IV",
+      "5": "V",
+      "6": "VI",
+      "7": "VII",
+      "8": "VIII",
+      "9": "IX",
+      "urgent": "",
+      "active": "",
+      "default": ""
+    }
+  },
+  "custom/music": {
+      "format": "  {}",
+      "escape": true,
+      "interval": 1,
+      "tooltip": true,
+      "exec": "playerctl metadata --format='{{ title }} | {{ artist }}'",
+      "on-click": "playerctl play-pause",
+      "on-scroll-up": "playerctl next",
+      "on-scroll-down": "playerctl previous",
+      "max-length": 35
+  },
+  "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 2,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+  "hyprland/window": {
+    "format": "{}",
+    "separate-outputs": true,
+    "max-length": 35
+  },
+  "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+  },
+  "tray": {
+    "icon-size": 18,
+    "spacing": 5
+  },
+  "clock": {
+    "timezone": "Asia/Kolkata",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": " {:%a, %b %d}",
+    "format": "  {:%R:%S | %a}",
+    "today-format": "<span color='#ff6699'><b><u>{}</u></b></span>",
+    "format-calendar": "<span color='#ecc6d9'><b>{}</b></span>",
+    "format-calendar-weeks": "<span color='#99ffdd'><b>W{:%U}</b></span>",
+    "format-calendar-weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+    "interval": 1,
+    "on-scroll": {
+      "calendar": 1
+    },
+
+  "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 40,
+        "format-critical": "{temperatureC}°C {icon}",
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["" , "", ""],
+        "tooltip": true,
+        "on-click": "gnome-system-monitor",
+        "interval": 1
+    },
+  },
+  "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon} {percent}%",
+        "format-icons": [" "," "],
+        "on-scroll-up": "brightnessctl set +3%",
+        "on-scroll-down": "brightnessctl set 3%-",
+        "on-click": ""
+
+    },
+  "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon} ",
+        "format-charging": "{capacity}%  ",
+        "format-plugged": "{capacity}%  ",
+        "format-alt": "{time} {icon} ",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "interval": 1
+    },
+
+//  "cpu": {
+//        "interval": 5,
+//        "format": "  {}%",
+//        "max-length": 10,
+//    },
+
+  "cpu": {
+        "interval":1,
+        "format":"{icon0}{icon1}{icon2}{icon3}",
+        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+        "on-click": "alacritty --class system_monitor -e btop",
+        "max-lenght": 25,
+        "min-length":6,
+    },
+
+
+
+  "memory": {
+        "format": " {}%",
+        "tooltip": true,
+        "on-click": "gnome-system-monitor",
+        "interval": 1
+  },
+  "network": {
+    // "interface": "wlp2*", // (Optional) To force the use of this interface
+    // "format-wifi": "直   {bandwidthUpBytes} |  {bandwidthDownBytes} {signalStrength}%",
+    "format-wifi": "直 {signalStrength}: {bandwidthUpBytes} | {bandwidthDownBytes}",
+
+    // "format-ethernet": "   {bandwidthUpBytes} |  {bandwidthDownBytes}",
+    "format-ethernet": "  {bandwidthUpBytes} | {bandwidthDownBytes}",
+
+
+    "tooltip-format": "{ifname} via {gwaddr}",
+    "format-linked": "{ifname} (No IP)",
+    "format-disconnected": "睊",
+    "on-click": "kitty -e nmtui",
+    "interval": 1
+  },
+
+
+  "pulseaudio": {
+    // "scroll-step": 1, // %, can be a float
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{volume}%  {format_source}",
+    "format-bluetooth-muted": "婢 ",
+    "format-muted": " 婢",
+    // "format-source": "{volume}% ",
+    // "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "custom/spotify": {
+    "exec": "python ~/.config/waybar/scripts/mediaplayer.py --player spotify",
+    "format": " {}",
+    "return-type": "json",
+    "on-click": "playerctl --player=spotify play-pause",
+    "on-scroll-down": "playerctl --player=spotify next",
+    "on-scroll-up": "playerctl --player=spotify previous",
+    "tooltip": false
+  },
+  "custom/power-menu": {
+    "format": "⏻",
+    "on-click": "~/.config/waybar/scripts/power-menu/powermenu.sh"
+  },
+  "custom/notification": {
+    "exec": "~/.config/waybar/scripts/notification.sh",
+    "on-click": "dunstctl set-paused toggle",
+    "on-click-right": "notify-send -t 1 'swww' '1' & ~/.config/hypr/scripts/setwall",
+    "return-type": "json",
+    "max-length": 50,
+    "format": "{}"
+  }
+}

@@ -17,9 +17,9 @@
 "margin-right": 8,
 
 "modules-left": [
-	//"custom/menu",
-	//"custom/separator#blank_2", 
-	"hyprland/workspaces#romanp",
+	"custom/menu",
+	"custom/separator#blank_2", 
+	"hyprland/workspaces#pacman",
 	"custom/separator#blank_2",
 	"mpris",
 	"custom/swaync",

@@ -55,34 +55,6 @@
     },
 },
 
-// ROMANP Numerals style
-"hyprland/workspaces#romanp": {
-    "active-only":false,
-    "all-outputs": false, //true for showing all-outputs
-    "format": "{icon}",
-    "show-special": false,
-    "on-click": "activate",
-    "on-scroll-up": "hyprctl dispatch workspace e+1",
-    "on-scroll-down": "hyprctl dispatch workspace e-1",
-
-    "format-icons": {
-      "1": " ",
-      "2": "med",
-      "3": "term",
-      "4": "file",
-      "5": "vim",
-      "6": "www",
-      "7": "VII",
-      "8": "virt",
-      "9": "tele",
-      "10": "xyz",
-
-//      "urgent": "",
-//      "active": "",
-//      "default": ""
-    },
-},
-
 // PACMAN Style
   "hyprland/workspaces#pacman": {
     "active-only":false,
@@ -422,7 +394,7 @@
     "default": ["", "", "󰕾", ""], 
     "ignored-sinks": ["Easy Effects Sink"],
     },
-    "scroll-step": 2.0,
+    "scroll-step": 5.0,
     "on-click": "~/.config/hypr/scripts/Volume.sh --toggle",
     "on-click-right": "pavucontrol -t 3",
     "on-scroll-up": "~/.config/hypr/scripts/Volume.sh --inc",
@@ -440,7 +412,7 @@
     "on-scroll-up": "~/.config/hypr/scripts/Volume.sh --mic-inc",
     "on-scroll-down": "~/.config/hypr/scripts/Volume.sh --mic-dec",
 	"tooltip-format": "{source_desc} | {source_volume}%",
-    "scroll-step": 3,
+    "scroll-step": 5,
 },
     
 "temperature": {
@@ -448,7 +420,7 @@
     "tooltip": true,
     "hwmon-path": ["/sys/class/hwmon/hwmon1/temp1_input", "/sys/class/thermal/thermal_zone0/temp"],
     //"thermal-zone": 0,
-    "critical-threshold": 87,
+    "critical-threshold": 82,
     "format-critical": "{temperatureC}°C {icon}",
     "format": "{temperatureC}°C {icon}",
     "format-icons": ["󰈸"],
@@ -494,7 +466,7 @@
 },
       
 "custom/keybinds": {
-    "format":"󰺁 chaos!",
+    "format":"󰺁 HINT!",
     "exec": "echo ; echo  Key Hints SUPER H",
     "on-click": "~/.config/hypr/scripts/KeyHints.sh",
     "interval" : 86400, // once every day
@@ -550,7 +522,7 @@
     "on-click-middle": "playerctl play-pause",
     "on-click": "playerctl previous",
     "on-click-right": "playerctl next",
-    "scroll-step": 3.0,
+    "scroll-step": 5.0,
     "on-scroll-up": "~/.config/hypr/scripts/Volume.sh --inc",
     "on-scroll-down": "~/.config/hypr/scripts/Volume.sh --dec",
     "smooth-scrolling-threshold": 1,

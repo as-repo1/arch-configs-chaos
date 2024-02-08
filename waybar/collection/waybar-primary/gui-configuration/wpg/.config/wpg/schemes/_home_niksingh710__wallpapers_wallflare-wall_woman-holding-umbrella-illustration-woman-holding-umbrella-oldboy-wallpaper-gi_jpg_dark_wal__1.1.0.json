@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/woman-holding-umbrella-illustration-woman-holding-umbrella-oldboy-wallpaper-gi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f090a",
+        "foreground": "#b9b8bb",
+        "cursor": "#b9b8bb"
+    },
+    "colors": {
+        "color0": "#0f090a",
+        "color1": "#6E2D2B",
+        "color2": "#4B3D43",
+        "color3": "#61555B",
+        "color4": "#962A25",
+        "color5": "#EE332A",
+        "color6": "#B5574F",
+        "color7": "#b9b8bb",
+        "color8": "#818082",
+        "color9": "#6E2D2B",
+        "color10": "#4B3D43",
+        "color11": "#61555B",
+        "color12": "#962A25",
+        "color13": "#EE332A",
+        "color14": "#B5574F",
+        "color15": "#b9b8bb"
+    }
+}

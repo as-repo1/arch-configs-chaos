@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/nature/water/sora-sagano-Dksk8szLRN0-unsplash-C554C.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#052E17",
+        "foreground": "#cab8a9",
+        "cursor": "#cab8a9"
+    },
+    "colors": {
+        "color0": "#052E17",
+        "color1": "#255A4D",
+        "color2": "#18644E",
+        "color3": "#296756",
+        "color4": "#337565",
+        "color5": "#5A6459",
+        "color6": "#259157",
+        "color7": "#cab8a9",
+        "color8": "#8d8076",
+        "color9": "#255A4D",
+        "color10": "#18644E",
+        "color11": "#296756",
+        "color12": "#337565",
+        "color13": "#5A6459",
+        "color14": "#259157",
+        "color15": "#cab8a9"
+    }
+}

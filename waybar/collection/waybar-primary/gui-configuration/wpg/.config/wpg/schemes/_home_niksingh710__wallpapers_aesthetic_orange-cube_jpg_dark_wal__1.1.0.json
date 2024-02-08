@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/orange-cube.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0a1124",
+        "foreground": "#ecc39a",
+        "cursor": "#ecc39a"
+    },
+    "colors": {
+        "color0": "#0a1124",
+        "color1": "#624D4B",
+        "color2": "#A93D4D",
+        "color3": "#EB3247",
+        "color4": "#F35744",
+        "color5": "#F6A73B",
+        "color6": "#F9D42F",
+        "color7": "#ecc39a",
+        "color8": "#a5886b",
+        "color9": "#624D4B",
+        "color10": "#A93D4D",
+        "color11": "#EB3247",
+        "color12": "#F35744",
+        "color13": "#F6A73B",
+        "color14": "#F9D42F",
+        "color15": "#ecc39a"
+    }
+}

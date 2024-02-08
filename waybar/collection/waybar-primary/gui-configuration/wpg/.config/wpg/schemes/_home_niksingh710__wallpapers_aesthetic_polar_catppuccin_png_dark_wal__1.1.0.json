@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/polar_catppuccin.png",
+    "alpha": "92",
+    "special": {
+        "background": "#12121b",
+        "foreground": "#a9c6d7",
+        "cursor": "#a9c6d7"
+    },
+    "colors": {
+        "color0": "#12121b",
+        "color1": "#425871",
+        "color2": "#42637C",
+        "color3": "#4A738D",
+        "color4": "#50819D",
+        "color5": "#5D9CBB",
+        "color6": "#629CBD",
+        "color7": "#a9c6d7",
+        "color8": "#768a96",
+        "color9": "#425871",
+        "color10": "#42637C",
+        "color11": "#4A738D",
+        "color12": "#50819D",
+        "color13": "#5D9CBB",
+        "color14": "#629CBD",
+        "color15": "#a9c6d7"
+    }
+}

@@ -1,0 +1,100 @@
+#!/usr/bin/env bash
+
+runAC=true
+runBattery=true
+
+is_gif=false
+[ -f "$HOME/.cache/setwal/is_gif" ] && is_gif="$(cat "$HOME/.cache/setwal/is_gif")"
+
+check() {
+	command -v "$1" &>/dev/null
+}
+
+notify() {
+	check notify-send || {
+		echo "$@"
+		return
+	}
+	notify-send "$@"
+}
+
+play_aud() {
+	exec mpv --no-video --no-terminal --really-quiet /usr/share/sounds/freedesktop/stereo/device-added.oga
+}
+
+power() {
+	check jq || {
+		return
+	}
+	check on_ac_power || {
+		return
+	}
+
+	class="$($HOME/.config/waybar/bin/battsaver-toggle getdata | jq -r '.class')"
+	local perf=false
+
+	pgrep -x heroic && perf=true
+	pgrep -x lutris && perf=true
+	pgrep -x steam && perf=true
+
+	if on_ac_power; then
+		echo "I'm on AC power"
+
+		if [[ "$class" != "performance" ]]; then
+			if $perf; then
+				"$HOME/.config/waybar/bin/battsaver-toggle" performance
+				play_aud &
+			fi
+		fi
+		if $runAC; then
+			$is_gif && {
+				[ -f "$HOME/bin/setwal" ] && {
+					"$HOME/bin/setwal" -l
+					notify "Switching to gif mode"
+				}
+			}
+			"$HOME/.config/waybar/bin/battsaver-toggle" normal
+			play_aud &
+			runAC=false
+			runBattery=true
+		fi
+	else
+		if $runBattery; then
+			if [ "$is_gif" = true ]; then
+				[ -f "$HOME/bin/setwal" ] && {
+					"$HOME/bin/setwal" -S
+					notify "On Battery Switching to static wallpaper"
+				}
+			fi
+			if [[ "$class" != "normal" ]]; then
+				"$HOME/.config/waybar/bin/battsaver-toggle" normal
+				exec mpv --no-video --no-terminal --really-quiet /usr/share/sounds/freedesktop/stereo/device-removed.oga &
+			fi
+			runBattery=false
+			runAC=true
+		fi
+		echo "I'm on battery"
+	fi
+
+}
+
+game() {
+	pgrep -x gamemoded || return
+	pgrep -x heroic || {
+		killall gamemoded
+	}
+}
+
+kde() {
+	check kdeconnect-cli && {
+		pgrep -x kdeconnectd >/dev/null || setsid /usr/lib/kdeconnectd &>/dev/null
+		pgrep -x kdeconnect-indi >/dev/null || setsid kdeconnect-indicator &>/dev/null
+	}
+}
+
+while true; do
+	power
+	kde
+	game
+	sleep 1
+done

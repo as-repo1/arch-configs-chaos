@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/Jurassic-dino.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#240d2d",
+        "foreground": "#eae3e9",
+        "cursor": "#eae3e9"
+    },
+    "colors": {
+        "color0": "#240d2d",
+        "color1": "#AC91B1",
+        "color2": "#B6A8C9",
+        "color3": "#CDAEC3",
+        "color4": "#D5CBD3",
+        "color5": "#ECD8D2",
+        "color6": "#FBEBD6",
+        "color7": "#eae3e9",
+        "color8": "#a39ea3",
+        "color9": "#AC91B1",
+        "color10": "#B6A8C9",
+        "color11": "#CDAEC3",
+        "color12": "#D5CBD3",
+        "color13": "#ECD8D2",
+        "color14": "#FBEBD6",
+        "color15": "#eae3e9"
+    }
+}

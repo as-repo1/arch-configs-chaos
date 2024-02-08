@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/warrior-holding-sword-wallpaper-video-game-screenshot-fantasy-art-wallpaper-pxs.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0d0c0d",
+        "foreground": "#c5bec0",
+        "cursor": "#c5bec0"
+    },
+    "colors": {
+        "color0": "#0d0c0d",
+        "color1": "#4D4B51",
+        "color2": "#696367",
+        "color3": "#C5582D",
+        "color4": "#936B61",
+        "color5": "#D09562",
+        "color6": "#7B7C85",
+        "color7": "#c5bec0",
+        "color8": "#898586",
+        "color9": "#4D4B51",
+        "color10": "#696367",
+        "color11": "#C5582D",
+        "color12": "#936B61",
+        "color13": "#D09562",
+        "color14": "#7B7C85",
+        "color15": "#c5bec0"
+    }
+}

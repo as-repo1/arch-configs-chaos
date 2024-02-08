@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/blue-red-4k.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1d0607",
+        "foreground": "#bd8fbe",
+        "cursor": "#bd8fbe"
+    },
+    "colors": {
+        "color0": "#1d0607",
+        "color1": "#572F51",
+        "color2": "#11496A",
+        "color3": "#941012",
+        "color4": "#AE1B3E",
+        "color5": "#125C9C",
+        "color6": "#1567BE",
+        "color7": "#bd8fbe",
+        "color8": "#846485",
+        "color9": "#572F51",
+        "color10": "#11496A",
+        "color11": "#941012",
+        "color12": "#AE1B3E",
+        "color13": "#125C9C",
+        "color14": "#1567BE",
+        "color15": "#bd8fbe"
+    }
+}

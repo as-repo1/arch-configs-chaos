@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/japan_torii.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101e1b",
+        "foreground": "#accee4",
+        "cursor": "#accee4"
+    },
+    "colors": {
+        "color0": "#101e1b",
+        "color1": "#A9674E",
+        "color2": "#558454",
+        "color3": "#6B8D65",
+        "color4": "#A0966D",
+        "color5": "#517688",
+        "color6": "#5E99A3",
+        "color7": "#accee4",
+        "color8": "#78909f",
+        "color9": "#A9674E",
+        "color10": "#558454",
+        "color11": "#6B8D65",
+        "color12": "#A0966D",
+        "color13": "#517688",
+        "color14": "#5E99A3",
+        "color15": "#accee4"
+    }
+}

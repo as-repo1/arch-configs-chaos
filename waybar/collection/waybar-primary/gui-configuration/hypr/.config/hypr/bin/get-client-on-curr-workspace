@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Gets client to current workspace
+
+loc="$HOME/.config/hypr/bin"
+
+_current_workspace="$(hyprctl monitors -j | jq '.[] | select(.focused==true)' | jq -j '.activeWorkspace.name')"
+
+hash rofi 2>/dev/null || exit
+hash hyprctl 2>/dev/null || exit
+
+killall -q rofi && exit
+
+out=$("$loc/list-client-stdout" \
+| rofi -dmenu \
+| awk '{print $3}'\
+)
+
+[ -z "$out" ] || {
+	hyprctl dispatch movetoworkspace "$_current_workspace,pid:$out" &>/dev/null
+	[ "$(hyprctl activewindow -j | jq '.floating')" = true ] && {
+		hyprctl dispatch bringactivetotop none &>/dev/null
+	}
+}
+
+# vim: ft=sh

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/onepiece.png",
+    "alpha": "100",
+    "special": {
+        "background": "#11151d",
+        "foreground": "#dee0e5",
+        "cursor": "#dee0e5"
+    },
+    "colors": {
+        "color0": "#11151d",
+        "color1": "#AB9572",
+        "color2": "#757986",
+        "color3": "#7C8490",
+        "color4": "#979BA6",
+        "color5": "#BEBCBA",
+        "color6": "#EECD8C",
+        "color7": "#dee0e5",
+        "color8": "#9b9ca0",
+        "color9": "#AB9572",
+        "color10": "#757986",
+        "color11": "#7C8490",
+        "color12": "#979BA6",
+        "color13": "#BEBCBA",
+        "color14": "#EECD8C",
+        "color15": "#dee0e5"
+    }
+}

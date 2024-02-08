@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/nord-princess-zelda.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#cfd2da",
+        "cursor": "#cfd2da"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#66748E",
+        "color2": "#76839C",
+        "color3": "#7C88A2",
+        "color4": "#8893A9",
+        "color5": "#9BA4B7",
+        "color6": "#A0A8BA",
+        "color7": "#cfd2da",
+        "color8": "#909398",
+        "color9": "#66748E",
+        "color10": "#76839C",
+        "color11": "#7C88A2",
+        "color12": "#8893A9",
+        "color13": "#9BA4B7",
+        "color14": "#A0A8BA",
+        "color15": "#cfd2da"
+    }
+}

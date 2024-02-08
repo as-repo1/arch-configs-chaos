@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/shared/8_bit_pixel_art_pixels_earth_wallpaper_ef55628c1ef65cbbf56c78f2f101a4c4.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0A0D16",
+        "foreground": "#d0d5da",
+        "cursor": "#d0d5da"
+    },
+    "colors": {
+        "color0": "#0A0D16",
+        "color1": "#7D8270",
+        "color2": "#878A73",
+        "color3": "#3C5C82",
+        "color4": "#5A728E",
+        "color5": "#718AA4",
+        "color6": "#959EA5",
+        "color7": "#d0d5da",
+        "color8": "#919598",
+        "color9": "#7D8270",
+        "color10": "#878A73",
+        "color11": "#3C5C82",
+        "color12": "#5A728E",
+        "color13": "#718AA4",
+        "color14": "#959EA5",
+        "color15": "#d0d5da"
+    }
+}

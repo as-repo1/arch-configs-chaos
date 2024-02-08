@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/windows-magenta-pink.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0F1B",
+        "foreground": "#eacee8",
+        "cursor": "#eacee8"
+    },
+    "colors": {
+        "color0": "#0A0F1B",
+        "color1": "#8D7299",
+        "color2": "#997AA4",
+        "color3": "#AA88B5",
+        "color4": "#BA94C5",
+        "color5": "#CDA2D7",
+        "color6": "#D5ACE6",
+        "color7": "#eacee8",
+        "color8": "#a390a2",
+        "color9": "#8D7299",
+        "color10": "#997AA4",
+        "color11": "#AA88B5",
+        "color12": "#BA94C5",
+        "color13": "#CDA2D7",
+        "color14": "#D5ACE6",
+        "color15": "#eacee8"
+    }
+}

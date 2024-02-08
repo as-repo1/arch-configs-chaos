@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/python-dev.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101822",
+        "foreground": "#acc1d7",
+        "cursor": "#acc1d7"
+    },
+    "colors": {
+        "color0": "#101822",
+        "color1": "#C79978",
+        "color2": "#D1A97F",
+        "color3": "#557195",
+        "color4": "#5C7CA4",
+        "color5": "#5F81A9",
+        "color6": "#648AB1",
+        "color7": "#acc1d7",
+        "color8": "#788796",
+        "color9": "#C79978",
+        "color10": "#D1A97F",
+        "color11": "#557195",
+        "color12": "#5C7CA4",
+        "color13": "#5F81A9",
+        "color14": "#648AB1",
+        "color15": "#acc1d7"
+    }
+}

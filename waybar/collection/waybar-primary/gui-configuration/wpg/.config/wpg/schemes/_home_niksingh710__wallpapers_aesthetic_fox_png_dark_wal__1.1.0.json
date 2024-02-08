@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/fox.png",
+    "alpha": "92",
+    "special": {
+        "background": "#091219",
+        "foreground": "#e7e8e6",
+        "cursor": "#e7e8e6"
+    },
+    "colors": {
+        "color0": "#091219",
+        "color1": "#D7883C",
+        "color2": "#FF983E",
+        "color3": "#F29950",
+        "color4": "#3A7899",
+        "color5": "#C7B2A6",
+        "color6": "#95E5FB",
+        "color7": "#e7e8e6",
+        "color8": "#a1a2a1",
+        "color9": "#D7883C",
+        "color10": "#FF983E",
+        "color11": "#F29950",
+        "color12": "#3A7899",
+        "color13": "#C7B2A6",
+        "color14": "#95E5FB",
+        "color15": "#e7e8e6"
+    }
+}

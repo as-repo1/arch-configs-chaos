@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/skull-and-bones-2018-video-game-brown-pirate-ship-illustration-wallpaper-pobts.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0d0e",
+        "foreground": "#decba9",
+        "cursor": "#decba9"
+    },
+    "colors": {
+        "color0": "#0a0d0e",
+        "color1": "#333D42",
+        "color2": "#394348",
+        "color3": "#5C554F",
+        "color4": "#9A5E3A",
+        "color5": "#9B6B4B",
+        "color6": "#D69D5B",
+        "color7": "#decba9",
+        "color8": "#9b8e76",
+        "color9": "#333D42",
+        "color10": "#394348",
+        "color11": "#5C554F",
+        "color12": "#9A5E3A",
+        "color13": "#9B6B4B",
+        "color14": "#D69D5B",
+        "color15": "#decba9"
+    }
+}

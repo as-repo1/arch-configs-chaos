@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/void-magenta-pink.png",
+    "alpha": "92",
+    "special": {
+        "background": "#10101a",
+        "foreground": "#e1cdea",
+        "cursor": "#e1cdea"
+    },
+    "colors": {
+        "color0": "#10101a",
+        "color1": "#9C7DA8",
+        "color2": "#9F80AA",
+        "color3": "#A886B3",
+        "color4": "#BC95C7",
+        "color5": "#C49BCE",
+        "color6": "#D0A4DA",
+        "color7": "#e1cdea",
+        "color8": "#9d8fa3",
+        "color9": "#9C7DA8",
+        "color10": "#9F80AA",
+        "color11": "#A886B3",
+        "color12": "#BC95C7",
+        "color13": "#C49BCE",
+        "color14": "#D0A4DA",
+        "color15": "#e1cdea"
+    }
+}

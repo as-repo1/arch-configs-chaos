@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/ink_wave.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101112",
+        "foreground": "#77c8e8",
+        "cursor": "#77c8e8"
+    },
+    "colors": {
+        "color0": "#101112",
+        "color1": "#0E6385",
+        "color2": "#097AA6",
+        "color3": "#0785B8",
+        "color4": "#029CDA",
+        "color5": "#029DDB",
+        "color6": "#02A0DF",
+        "color7": "#77c8e8",
+        "color8": "#538ca2",
+        "color9": "#0E6385",
+        "color10": "#097AA6",
+        "color11": "#0785B8",
+        "color12": "#029CDA",
+        "color13": "#029DDB",
+        "color14": "#02A0DF",
+        "color15": "#77c8e8"
+    }
+}

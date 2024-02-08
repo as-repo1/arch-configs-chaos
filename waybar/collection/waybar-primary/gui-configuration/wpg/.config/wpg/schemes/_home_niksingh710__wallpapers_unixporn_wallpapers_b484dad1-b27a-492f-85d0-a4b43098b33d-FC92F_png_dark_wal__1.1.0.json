@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/b484dad1-b27a-492f-85d0-a4b43098b33d-FC92F.png",
+    "alpha": "92",
+    "special": {
+        "background": "#0f0a09",
+        "foreground": "#e8e1e4",
+        "cursor": "#e8e1e4"
+    },
+    "colors": {
+        "color0": "#0f0a09",
+        "color1": "#CFA84C",
+        "color2": "#603995",
+        "color3": "#595EAF",
+        "color4": "#6F4FA5",
+        "color5": "#AD60B7",
+        "color6": "#C8A5B3",
+        "color7": "#e8e1e4",
+        "color8": "#a29d9f",
+        "color9": "#CFA84C",
+        "color10": "#603995",
+        "color11": "#595EAF",
+        "color12": "#6F4FA5",
+        "color13": "#AD60B7",
+        "color14": "#C8A5B3",
+        "color15": "#e8e1e4"
+    }
+}

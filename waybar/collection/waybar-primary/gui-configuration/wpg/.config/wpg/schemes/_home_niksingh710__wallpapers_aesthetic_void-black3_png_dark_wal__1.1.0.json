@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/void-black3.png",
+    "alpha": "100",
+    "special": {
+        "background": "#171221",
+        "foreground": "#c5e0c9",
+        "cursor": "#c5e0c9"
+    },
+    "colors": {
+        "color0": "#171221",
+        "color1": "#5C8B66",
+        "color2": "#659D6E",
+        "color3": "#68A370",
+        "color4": "#799D85",
+        "color5": "#88B493",
+        "color6": "#9BD1A4",
+        "color7": "#c5e0c9",
+        "color8": "#899c8c",
+        "color9": "#5C8B66",
+        "color10": "#659D6E",
+        "color11": "#68A370",
+        "color12": "#799D85",
+        "color13": "#88B493",
+        "color14": "#9BD1A4",
+        "color15": "#c5e0c9"
+    }
+}

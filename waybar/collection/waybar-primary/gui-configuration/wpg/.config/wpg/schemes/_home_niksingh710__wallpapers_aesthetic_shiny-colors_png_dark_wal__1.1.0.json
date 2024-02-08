@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/shiny-colors.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a10",
+        "foreground": "#c0cdf0",
+        "cursor": "#c0cdf0"
+    },
+    "colors": {
+        "color0": "#0a0a10",
+        "color1": "#5F6895",
+        "color2": "#AF759E",
+        "color3": "#6E97B9",
+        "color4": "#EF93A7",
+        "color5": "#9FDDBB",
+        "color6": "#F7E2AF",
+        "color7": "#c0cdf0",
+        "color8": "#868fa8",
+        "color9": "#5F6895",
+        "color10": "#AF759E",
+        "color11": "#6E97B9",
+        "color12": "#EF93A7",
+        "color13": "#9FDDBB",
+        "color14": "#F7E2AF",
+        "color15": "#c0cdf0"
+    }
+}

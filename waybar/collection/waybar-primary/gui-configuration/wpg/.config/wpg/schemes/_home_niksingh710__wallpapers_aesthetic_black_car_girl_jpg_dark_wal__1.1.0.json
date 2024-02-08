@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/black_car_girl.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#000000",
+        "foreground": "#d4d4d4",
+        "cursor": "#d4d4d4"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#878787",
+        "color2": "#989898",
+        "color3": "#A4A4A4",
+        "color4": "#ACACAC",
+        "color5": "#B3B3B3",
+        "color6": "#B5B5B5",
+        "color7": "#d4d4d4",
+        "color8": "#949494",
+        "color9": "#878787",
+        "color10": "#989898",
+        "color11": "#A4A4A4",
+        "color12": "#ACACAC",
+        "color13": "#B3B3B3",
+        "color14": "#B5B5B5",
+        "color15": "#d4d4d4"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/space-art-fantasy-art-sky-clouds-moonlight-universe-planet-wallpaper-tjqma.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#060B14",
+        "foreground": "#bec6d0",
+        "cursor": "#bec6d0"
+    },
+    "colors": {
+        "color0": "#060B14",
+        "color1": "#384F67",
+        "color2": "#4A5D72",
+        "color3": "#3D6483",
+        "color4": "#5D738A",
+        "color5": "#728BA1",
+        "color6": "#78A6C4",
+        "color7": "#bec6d0",
+        "color8": "#858a91",
+        "color9": "#384F67",
+        "color10": "#4A5D72",
+        "color11": "#3D6483",
+        "color12": "#5D738A",
+        "color13": "#728BA1",
+        "color14": "#78A6C4",
+        "color15": "#bec6d0"
+    }
+}

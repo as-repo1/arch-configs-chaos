@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/sunset-xfksfuywx.png",
+    "alpha": "100",
+    "special": {
+        "background": "#12121d",
+        "foreground": "#ded0cf",
+        "cursor": "#ded0cf"
+    },
+    "colors": {
+        "color0": "#12121d",
+        "color1": "#705E8F",
+        "color2": "#906489",
+        "color3": "#DA798D",
+        "color4": "#62A5E7",
+        "color5": "#4BC5EF",
+        "color6": "#AF95AC",
+        "color7": "#ded0cf",
+        "color8": "#9b9190",
+        "color9": "#705E8F",
+        "color10": "#906489",
+        "color11": "#DA798D",
+        "color12": "#62A5E7",
+        "color13": "#4BC5EF",
+        "color14": "#AF95AC",
+        "color15": "#ded0cf"
+    }
+}

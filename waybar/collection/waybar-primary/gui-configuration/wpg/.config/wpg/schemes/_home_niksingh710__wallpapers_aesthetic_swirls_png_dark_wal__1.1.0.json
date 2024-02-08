@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/swirls.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d12",
+        "foreground": "#b0bdd0",
+        "cursor": "#b0bdd0"
+    },
+    "colors": {
+        "color0": "#0d0d12",
+        "color1": "#38475A",
+        "color2": "#52605D",
+        "color3": "#4A506F",
+        "color4": "#7C9773",
+        "color5": "#4B6B94",
+        "color6": "#616A98",
+        "color7": "#b0bdd0",
+        "color8": "#7b8491",
+        "color9": "#38475A",
+        "color10": "#52605D",
+        "color11": "#4A506F",
+        "color12": "#7C9773",
+        "color13": "#4B6B94",
+        "color14": "#616A98",
+        "color15": "#b0bdd0"
+    }
+}

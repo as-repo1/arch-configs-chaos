@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/pinky-94306.png",
+    "alpha": "92",
+    "special": {
+        "background": "#090006",
+        "foreground": "#e677c7",
+        "cursor": "#e677c7"
+    },
+    "colors": {
+        "color0": "#090006",
+        "color1": "#A90078",
+        "color2": "#B0007E",
+        "color3": "#B90084",
+        "color4": "#BA0085",
+        "color5": "#BF0088",
+        "color6": "#CE0093",
+        "color7": "#e677c7",
+        "color8": "#a1538b",
+        "color9": "#A90078",
+        "color10": "#B0007E",
+        "color11": "#B90084",
+        "color12": "#BA0085",
+        "color13": "#BF0088",
+        "color14": "#CE0093",
+        "color15": "#e677c7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/one-piece-monkey-d-luffy-wallpaper-gkhvh.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0e1914",
+        "foreground": "#ccd9db",
+        "cursor": "#ccd9db"
+    },
+    "colors": {
+        "color0": "#0e1914",
+        "color1": "#556557",
+        "color2": "#6C8B66",
+        "color3": "#909062",
+        "color4": "#7099A3",
+        "color5": "#64B7D7",
+        "color6": "#6CD0EF",
+        "color7": "#ccd9db",
+        "color8": "#8e9799",
+        "color9": "#556557",
+        "color10": "#6C8B66",
+        "color11": "#909062",
+        "color12": "#7099A3",
+        "color13": "#64B7D7",
+        "color14": "#6CD0EF",
+        "color15": "#ccd9db"
+    }
+}

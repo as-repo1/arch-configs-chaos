@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/irl/mate-2.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#14180f",
+        "foreground": "#aebfc4",
+        "cursor": "#aebfc4"
+    },
+    "colors": {
+        "color0": "#14180f",
+        "color1": "#887947",
+        "color2": "#73963A",
+        "color3": "#91AE53",
+        "color4": "#A1B948",
+        "color5": "#A3CA62",
+        "color6": "#627787",
+        "color7": "#aebfc4",
+        "color8": "#798589",
+        "color9": "#887947",
+        "color10": "#73963A",
+        "color11": "#91AE53",
+        "color12": "#A1B948",
+        "color13": "#A3CA62",
+        "color14": "#627787",
+        "color15": "#aebfc4"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/cavern-BB263.png",
+    "alpha": "92",
+    "special": {
+        "background": "#00021D",
+        "foreground": "#96a2e7",
+        "cursor": "#96a2e7"
+    },
+    "colors": {
+        "color0": "#00021D",
+        "color1": "#0E2398",
+        "color2": "#142BAE",
+        "color3": "#1A31B1",
+        "color4": "#1E37C1",
+        "color5": "#233BC6",
+        "color6": "#2F48D2",
+        "color7": "#96a2e7",
+        "color8": "#6971a1",
+        "color9": "#0E2398",
+        "color10": "#142BAE",
+        "color11": "#1A31B1",
+        "color12": "#1E37C1",
+        "color13": "#233BC6",
+        "color14": "#2F48D2",
+        "color15": "#96a2e7"
+    }
+}

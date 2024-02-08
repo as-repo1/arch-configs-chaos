@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/nixos-declarative.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151310",
+        "foreground": "#b7d4ea",
+        "cursor": "#b7d4ea"
+    },
+    "colors": {
+        "color0": "#151310",
+        "color1": "#5177C3",
+        "color2": "#6992AE",
+        "color3": "#6B9CC4",
+        "color4": "#7AB0DB",
+        "color5": "#7EB8E3",
+        "color6": "#83B5D3",
+        "color7": "#b7d4ea",
+        "color8": "#8094a3",
+        "color9": "#5177C3",
+        "color10": "#6992AE",
+        "color11": "#6B9CC4",
+        "color12": "#7AB0DB",
+        "color13": "#7EB8E3",
+        "color14": "#83B5D3",
+        "color15": "#b7d4ea"
+    }
+}

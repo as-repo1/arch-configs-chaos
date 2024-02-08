@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/cropped-wallpaper-for-hacker.png",
+    "alpha": "100",
+    "special": {
+        "background": "#000505",
+        "foreground": "#9ac6c6",
+        "cursor": "#9ac6c6"
+    },
+    "colors": {
+        "color0": "#000505",
+        "color1": "#355555",
+        "color2": "#006C6C",
+        "color3": "#4C4E4E",
+        "color4": "#5D6E6E",
+        "color5": "#008E8E",
+        "color6": "#02AFAF",
+        "color7": "#9ac6c6",
+        "color8": "#6b8a8a",
+        "color9": "#355555",
+        "color10": "#006C6C",
+        "color11": "#4C4E4E",
+        "color12": "#5D6E6E",
+        "color13": "#008E8E",
+        "color14": "#02AFAF",
+        "color15": "#9ac6c6"
+    }
+}

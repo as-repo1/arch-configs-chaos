@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Focuses to available open clients
+# To be used with mapping command 
+# rofi -show combi -modes combi -combi-modes "clients:$scriptsdir/<this-script>,drun" -no-show-
+
+
+loc="$HOME/.config/hypr/bin/"
+[ -f "$loc/list-client-stdout" ] || exit
+
+hash rofi 2>/dev/null || exit
+hash hyprctl 2>/dev/null || exit
+
+"$loc/list-client-stdout"
+
+out=$(echo "$1" | awk '{print $3}')
+[ -z "$out" ] || {
+	killall -q rofi &>/dev/null
+	hyprctl dispatch focuswindow "pid:$out"
+	[ "$(hyprctl activewindow -j | jq '.floating')" = true ] && {
+		hyprctl dispatch bringactivetotop none
+	}
+}
+exit 0
+# vim: ft=sh

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/personal/juuzou_phone_bw.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#000000",
+        "foreground": "#dddddd",
+        "cursor": "#dddddd"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#686868",
+        "color2": "#787878",
+        "color3": "#888888",
+        "color4": "#979797",
+        "color5": "#A7A7A7",
+        "color6": "#B7B7B7",
+        "color7": "#dddddd",
+        "color8": "#9a9a9a",
+        "color9": "#686868",
+        "color10": "#787878",
+        "color11": "#888888",
+        "color12": "#979797",
+        "color13": "#A7A7A7",
+        "color14": "#B7B7B7",
+        "color15": "#dddddd"
+    }
+}

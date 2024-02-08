@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/kiku/fabian-moller-gI7zgb80QWY-unsplash.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#010504",
+        "foreground": "#f4a5c7",
+        "cursor": "#f4a5c7"
+    },
+    "colors": {
+        "color0": "#010504",
+        "color1": "#14564E",
+        "color2": "#594A41",
+        "color3": "#C0235F",
+        "color4": "#698C6C",
+        "color5": "#A63E83",
+        "color6": "#FB2489",
+        "color7": "#f4a5c7",
+        "color8": "#aa738b",
+        "color9": "#14564E",
+        "color10": "#594A41",
+        "color11": "#C0235F",
+        "color12": "#698C6C",
+        "color13": "#A63E83",
+        "color14": "#FB2489",
+        "color15": "#f4a5c7"
+    }
+}

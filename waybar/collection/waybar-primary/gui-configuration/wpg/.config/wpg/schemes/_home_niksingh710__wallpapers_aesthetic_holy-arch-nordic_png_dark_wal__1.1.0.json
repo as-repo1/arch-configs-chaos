@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/holy-arch-nordic.png",
+    "alpha": "100",
+    "special": {
+        "background": "#191c22",
+        "foreground": "#a7bad0",
+        "cursor": "#a7bad0"
+    },
+    "colors": {
+        "color0": "#191c22",
+        "color1": "#45566E",
+        "color2": "#45566E",
+        "color3": "#4C617E",
+        "color4": "#526B8D",
+        "color5": "#5C7CA4",
+        "color6": "#5E81AC",
+        "color7": "#a7bad0",
+        "color8": "#748291",
+        "color9": "#45566E",
+        "color10": "#45566E",
+        "color11": "#4C617E",
+        "color12": "#526B8D",
+        "color13": "#5C7CA4",
+        "color14": "#5E81AC",
+        "color15": "#a7bad0"
+    }
+}

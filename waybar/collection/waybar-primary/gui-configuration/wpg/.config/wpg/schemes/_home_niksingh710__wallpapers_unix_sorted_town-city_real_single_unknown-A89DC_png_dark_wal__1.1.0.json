@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/town-city/real/single/unknown-A89DC.png",
+    "alpha": "92",
+    "special": {
+        "background": "#0b0908",
+        "foreground": "#adaaac",
+        "cursor": "#adaaac"
+    },
+    "colors": {
+        "color0": "#0b0908",
+        "color1": "#534639",
+        "color2": "#64482F",
+        "color3": "#544F50",
+        "color4": "#645652",
+        "color5": "#5E5A61",
+        "color6": "#615D63",
+        "color7": "#adaaac",
+        "color8": "#797678",
+        "color9": "#534639",
+        "color10": "#64482F",
+        "color11": "#544F50",
+        "color12": "#645652",
+        "color13": "#5E5A61",
+        "color14": "#615D63",
+        "color15": "#adaaac"
+    }
+}

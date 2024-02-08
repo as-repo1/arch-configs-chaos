@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/purple-crystal.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1e20",
+        "foreground": "#d3d1cb",
+        "cursor": "#d3d1cb"
+    },
+    "colors": {
+        "color0": "#1f1e20",
+        "color1": "#999091",
+        "color2": "#A39B98",
+        "color3": "#AAA59C",
+        "color4": "#9282AA",
+        "color5": "#A398A4",
+        "color6": "#B9B4A9",
+        "color7": "#d3d1cb",
+        "color8": "#93928e",
+        "color9": "#999091",
+        "color10": "#A39B98",
+        "color11": "#AAA59C",
+        "color12": "#9282AA",
+        "color13": "#A398A4",
+        "color14": "#B9B4A9",
+        "color15": "#d3d1cb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/irl/Excl_Autumn_Leaf.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0e1012",
+        "foreground": "#dbd4c4",
+        "cursor": "#dbd4c4"
+    },
+    "colors": {
+        "color0": "#0e1012",
+        "color1": "#71736A",
+        "color2": "#8B765B",
+        "color3": "#7D8279",
+        "color4": "#9A8E71",
+        "color5": "#D7BC6E",
+        "color6": "#A8A490",
+        "color7": "#dbd4c4",
+        "color8": "#999489",
+        "color9": "#71736A",
+        "color10": "#8B765B",
+        "color11": "#7D8279",
+        "color12": "#9A8E71",
+        "color13": "#D7BC6E",
+        "color14": "#A8A490",
+        "color15": "#dbd4c4"
+    }
+}

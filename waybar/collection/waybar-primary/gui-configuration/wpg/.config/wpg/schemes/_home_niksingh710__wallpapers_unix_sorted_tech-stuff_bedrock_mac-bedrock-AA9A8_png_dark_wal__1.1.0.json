@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/tech-stuff/bedrock/mac-bedrock-AA9A8.png",
+    "alpha": "92",
+    "special": {
+        "background": "#060C18",
+        "foreground": "#d1bccd",
+        "cursor": "#d1bccd"
+    },
+    "colors": {
+        "color0": "#060C18",
+        "color1": "#644962",
+        "color2": "#93546F",
+        "color3": "#CB6B7D",
+        "color4": "#765B83",
+        "color5": "#A5729C",
+        "color6": "#CD7789",
+        "color7": "#d1bccd",
+        "color8": "#92838f",
+        "color9": "#644962",
+        "color10": "#93546F",
+        "color11": "#CB6B7D",
+        "color12": "#765B83",
+        "color13": "#A5729C",
+        "color14": "#CD7789",
+        "color15": "#d1bccd"
+    }
+}

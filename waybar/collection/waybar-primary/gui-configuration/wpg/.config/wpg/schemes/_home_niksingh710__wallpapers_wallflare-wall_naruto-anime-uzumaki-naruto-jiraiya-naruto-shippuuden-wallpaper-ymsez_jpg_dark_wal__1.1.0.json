@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/naruto-anime-uzumaki-naruto-jiraiya-naruto-shippuuden-wallpaper-ymsez.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#391b10",
+        "foreground": "#e9e8dd",
+        "cursor": "#e9e8dd"
+    },
+    "colors": {
+        "color0": "#391b10",
+        "color1": "#D0976B",
+        "color2": "#6A91A8",
+        "color3": "#B3AD91",
+        "color4": "#CFB693",
+        "color5": "#DCD2AA",
+        "color6": "#ADCACD",
+        "color7": "#e9e8dd",
+        "color8": "#a3a29a",
+        "color9": "#D0976B",
+        "color10": "#6A91A8",
+        "color11": "#B3AD91",
+        "color12": "#CFB693",
+        "color13": "#DCD2AA",
+        "color14": "#ADCACD",
+        "color15": "#e9e8dd"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/kiku/alexander-slattery-LI748t0BK8w-unsplash.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#08080C",
+        "foreground": "#87b2db",
+        "cursor": "#87b2db"
+    },
+    "colors": {
+        "color0": "#08080C",
+        "color1": "#0F4575",
+        "color2": "#2A4770",
+        "color3": "#BA847B",
+        "color4": "#094E8D",
+        "color5": "#1C5FA2",
+        "color6": "#535D98",
+        "color7": "#87b2db",
+        "color8": "#5e7c99",
+        "color9": "#0F4575",
+        "color10": "#2A4770",
+        "color11": "#BA847B",
+        "color12": "#094E8D",
+        "color13": "#1C5FA2",
+        "color14": "#535D98",
+        "color15": "#87b2db"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/irl/house.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#252424",
+        "foreground": "#dad8cc",
+        "cursor": "#dad8cc"
+    },
+    "colors": {
+        "color0": "#252424",
+        "color1": "#67847A",
+        "color2": "#9E8F73",
+        "color3": "#C7A578",
+        "color4": "#67948C",
+        "color5": "#9CA08E",
+        "color6": "#B2AC8F",
+        "color7": "#dad8cc",
+        "color8": "#98978e",
+        "color9": "#67847A",
+        "color10": "#9E8F73",
+        "color11": "#C7A578",
+        "color12": "#67948C",
+        "color13": "#9CA08E",
+        "color14": "#B2AC8F",
+        "color15": "#dad8cc"
+    }
+}

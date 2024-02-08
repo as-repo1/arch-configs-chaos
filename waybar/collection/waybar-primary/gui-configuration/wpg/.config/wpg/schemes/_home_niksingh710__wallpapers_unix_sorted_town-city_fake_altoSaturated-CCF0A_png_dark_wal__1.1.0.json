@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/town-city/fake/altoSaturated-CCF0A.png",
+    "alpha": "92",
+    "special": {
+        "background": "#0d101d",
+        "foreground": "#a2a8bd",
+        "cursor": "#a2a8bd"
+    },
+    "colors": {
+        "color0": "#0d101d",
+        "color1": "#3A435B",
+        "color2": "#344471",
+        "color3": "#4E4975",
+        "color4": "#664F79",
+        "color5": "#5B667D",
+        "color6": "#3C4E82",
+        "color7": "#a2a8bd",
+        "color8": "#717584",
+        "color9": "#3A435B",
+        "color10": "#344471",
+        "color11": "#4E4975",
+        "color12": "#664F79",
+        "color13": "#5B667D",
+        "color14": "#3C4E82",
+        "color15": "#a2a8bd"
+    }
+}

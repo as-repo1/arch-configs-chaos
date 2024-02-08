@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/motors/cars/Going_Back_to_the_Past_219947_rectangle-718A3.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0D040C",
+        "foreground": "#e8a2dd",
+        "cursor": "#e8a2dd"
+    },
+    "colors": {
+        "color0": "#0D040C",
+        "color1": "#6D46A1",
+        "color2": "#A539A9",
+        "color3": "#A33DBD",
+        "color4": "#9D50A9",
+        "color5": "#D456B5",
+        "color6": "#9E4ED5",
+        "color7": "#e8a2dd",
+        "color8": "#a2719a",
+        "color9": "#6D46A1",
+        "color10": "#A539A9",
+        "color11": "#A33DBD",
+        "color12": "#9D50A9",
+        "color13": "#D456B5",
+        "color14": "#9E4ED5",
+        "color15": "#e8a2dd"
+    }
+}

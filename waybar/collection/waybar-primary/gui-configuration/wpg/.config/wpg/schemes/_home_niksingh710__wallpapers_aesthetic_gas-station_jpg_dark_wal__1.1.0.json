@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/gas-station.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#011C22",
+        "foreground": "#cedcdd",
+        "cursor": "#cedcdd"
+    },
+    "colors": {
+        "color0": "#011C22",
+        "color1": "#536869",
+        "color2": "#965D70",
+        "color3": "#247094",
+        "color4": "#61929D",
+        "color5": "#92ABAA",
+        "color6": "#A8BAC1",
+        "color7": "#cedcdd",
+        "color8": "#909a9a",
+        "color9": "#536869",
+        "color10": "#965D70",
+        "color11": "#247094",
+        "color12": "#61929D",
+        "color13": "#92ABAA",
+        "color14": "#A8BAC1",
+        "color15": "#cedcdd"
+    }
+}

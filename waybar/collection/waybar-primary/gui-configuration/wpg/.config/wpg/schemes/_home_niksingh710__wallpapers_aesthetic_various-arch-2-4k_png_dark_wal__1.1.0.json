@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/various-arch-2-4k.png",
+    "alpha": "92",
+    "special": {
+        "background": "#101019",
+        "foreground": "#c1def3",
+        "cursor": "#c1def3"
+    },
+    "colors": {
+        "color0": "#101019",
+        "color1": "#7AACCD",
+        "color2": "#99CFA2",
+        "color3": "#ACEBB4",
+        "color4": "#B9ACC2",
+        "color5": "#DCB6F2",
+        "color6": "#E2B2E8",
+        "color7": "#c1def3",
+        "color8": "#879baa",
+        "color9": "#7AACCD",
+        "color10": "#99CFA2",
+        "color11": "#ACEBB4",
+        "color12": "#B9ACC2",
+        "color13": "#DCB6F2",
+        "color14": "#E2B2E8",
+        "color15": "#c1def3"
+    }
+}

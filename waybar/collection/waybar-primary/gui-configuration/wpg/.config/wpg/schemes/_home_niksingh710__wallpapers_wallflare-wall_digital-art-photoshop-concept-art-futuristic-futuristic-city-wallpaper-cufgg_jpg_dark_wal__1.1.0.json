@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/digital-art-photoshop-concept-art-futuristic-futuristic-city-wallpaper-cufgg.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0e1c",
+        "foreground": "#a3caec",
+        "cursor": "#a3caec"
+    },
+    "colors": {
+        "color0": "#0b0e1c",
+        "color1": "#283393",
+        "color2": "#2E4D9D",
+        "color3": "#5657A1",
+        "color4": "#3F48C3",
+        "color5": "#5C61DC",
+        "color6": "#AE5FCC",
+        "color7": "#a3caec",
+        "color8": "#728da5",
+        "color9": "#283393",
+        "color10": "#2E4D9D",
+        "color11": "#5657A1",
+        "color12": "#3F48C3",
+        "color13": "#5C61DC",
+        "color14": "#AE5FCC",
+        "color15": "#a3caec"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/cherry-blossoms-tree-near-waterfall-wallpaper-woodland-stream-illustration-wallpaper-qwp.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0c0a09",
+        "foreground": "#d2d7d9",
+        "cursor": "#d2d7d9"
+    },
+    "colors": {
+        "color0": "#0c0a09",
+        "color1": "#9A9E72",
+        "color2": "#385D8B",
+        "color3": "#5F6C8D",
+        "color4": "#966D96",
+        "color5": "#6C92A0",
+        "color6": "#A0A2A4",
+        "color7": "#d2d7d9",
+        "color8": "#939697",
+        "color9": "#9A9E72",
+        "color10": "#385D8B",
+        "color11": "#5F6C8D",
+        "color12": "#966D96",
+        "color13": "#6C92A0",
+        "color14": "#A0A2A4",
+        "color15": "#d2d7d9"
+    }
+}

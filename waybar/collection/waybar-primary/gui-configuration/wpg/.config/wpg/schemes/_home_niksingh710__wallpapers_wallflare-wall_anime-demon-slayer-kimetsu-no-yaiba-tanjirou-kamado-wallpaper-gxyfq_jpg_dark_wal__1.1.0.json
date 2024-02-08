@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/anime-demon-slayer-kimetsu-no-yaiba-tanjirou-kamado-wallpaper-gxyfq.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0d0d0f",
+        "foreground": "#bec6ce",
+        "cursor": "#bec6ce"
+    },
+    "colors": {
+        "color0": "#0d0d0f",
+        "color1": "#4F576B",
+        "color2": "#62686F",
+        "color3": "#8B7F6F",
+        "color4": "#576B88",
+        "color5": "#6A798A",
+        "color6": "#76889B",
+        "color7": "#bec6ce",
+        "color8": "#858a90",
+        "color9": "#4F576B",
+        "color10": "#62686F",
+        "color11": "#8B7F6F",
+        "color12": "#576B88",
+        "color13": "#6A798A",
+        "color14": "#76889B",
+        "color15": "#bec6ce"
+    }
+}

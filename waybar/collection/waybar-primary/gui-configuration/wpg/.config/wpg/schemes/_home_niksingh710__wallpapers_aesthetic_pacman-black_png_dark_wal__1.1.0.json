@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/pacman-black.png",
+    "alpha": "92",
+    "special": {
+        "background": "#050608",
+        "foreground": "#dbbeee",
+        "cursor": "#dbbeee"
+    },
+    "colors": {
+        "color0": "#050608",
+        "color1": "#DA5D62",
+        "color2": "#817C9B",
+        "color3": "#78DBA9",
+        "color4": "#6CB2CE",
+        "color5": "#71AFEA",
+        "color6": "#F1D08A",
+        "color7": "#dbbeee",
+        "color8": "#9985a6",
+        "color9": "#DA5D62",
+        "color10": "#817C9B",
+        "color11": "#78DBA9",
+        "color12": "#6CB2CE",
+        "color13": "#71AFEA",
+        "color14": "#F1D08A",
+        "color15": "#dbbeee"
+    }
+}

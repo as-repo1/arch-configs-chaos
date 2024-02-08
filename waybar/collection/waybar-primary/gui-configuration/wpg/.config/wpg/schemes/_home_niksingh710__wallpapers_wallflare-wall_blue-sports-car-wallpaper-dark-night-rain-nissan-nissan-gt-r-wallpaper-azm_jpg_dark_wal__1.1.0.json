@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/blue-sports-car-wallpaper-dark-night-rain-nissan-nissan-gt-r-wallpaper-azm.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#080D14",
+        "foreground": "#aebdc7",
+        "cursor": "#aebdc7"
+    },
+    "colors": {
+        "color0": "#080D14",
+        "color1": "#553945",
+        "color2": "#334959",
+        "color3": "#525C67",
+        "color4": "#B4383E",
+        "color5": "#5B728A",
+        "color6": "#A5758D",
+        "color7": "#aebdc7",
+        "color8": "#79848b",
+        "color9": "#553945",
+        "color10": "#334959",
+        "color11": "#525C67",
+        "color12": "#B4383E",
+        "color13": "#5B728A",
+        "color14": "#A5758D",
+        "color15": "#aebdc7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/spiderman-hd-4k-superheroes-wallpaper-bxijj.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#2a181c",
+        "foreground": "#dde3e9",
+        "cursor": "#dde3e9"
+    },
+    "colors": {
+        "color0": "#2a181c",
+        "color1": "#699DD5",
+        "color2": "#6BACE4",
+        "color3": "#BCB1AD",
+        "color4": "#90B4DA",
+        "color5": "#A2C4E1",
+        "color6": "#B0CCE4",
+        "color7": "#dde3e9",
+        "color8": "#9a9ea3",
+        "color9": "#699DD5",
+        "color10": "#6BACE4",
+        "color11": "#BCB1AD",
+        "color12": "#90B4DA",
+        "color13": "#A2C4E1",
+        "color14": "#B0CCE4",
+        "color15": "#dde3e9"
+    }
+}

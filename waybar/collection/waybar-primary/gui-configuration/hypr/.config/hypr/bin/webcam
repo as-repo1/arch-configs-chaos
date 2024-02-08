@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+
+check() {
+	command -v "$1" &>/dev/null
+}
+
+notify() {
+	check notify-send && notify-send "$@" || echo "$@"
+}
+
+check adb || {
+	notify "adb not found"
+	exit 1
+}
+
+device="whyred"
+pass="0399"
+
+main() {
+	_device_id=$(adb devices -l | grep "$device" | awk '{print $1}')
+	if [ -z "$_device_id" ]; then
+		notify "Device $device not found" "Make sure to use correct codename"
+		exit 1
+	fi
+	_adb="adb -s $_device_id"
+	pkg_name=$($_adb shell pm list packages -f | grep -i "webcam")
+	if [ -z "$pkg_name" ]; then
+		notify "Webcam not found on Mobile device" "Make sure to install it first"
+		exit 1
+	fi
+	screen=$($_adb shell dumpsys input_method | grep -i screenOn | awk '{print $3}')
+	if [ "$screen" == "false" ]; then
+		$_adb shell input keyevent POWER
+    sleep 1
+		$_adb shell input touchscreen swipe 200 500 200 0
+		$_adb shell input text "$pass"
+		$_adb shell input keyevent ENTER
+	fi
+	$_adb shell -p monkey "$pkg_name" 1
+	notify "started webcam"
+}
+
+getargs() {
+	while [ $# -gt 0 ]; do
+		case "$1" in
+		-d | --device)
+			device="$2"
+			shift
+			;;
+		-p | --pass)
+			pass="$2"
+			shift
+			;;
+
+		-h | --help)
+			echo "Usage: $0 [-d|--device <device>] [-p|--pass <password/pin>]"
+			exit 0
+			;;
+		*)
+			echo "Unknown argument: $1"
+			exit 1
+			;;
+		esac
+		shift
+	done
+}
+
+getargs "$@"
+main

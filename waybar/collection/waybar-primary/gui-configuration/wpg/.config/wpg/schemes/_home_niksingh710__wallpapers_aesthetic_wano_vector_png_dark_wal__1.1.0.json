@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/wano_vector.png",
+    "alpha": "92",
+    "special": {
+        "background": "#252b36",
+        "foreground": "#e6e7ea",
+        "cursor": "#e6e7ea"
+    },
+    "colors": {
+        "color0": "#252b36",
+        "color1": "#949AA6",
+        "color2": "#A8AEB8",
+        "color3": "#B5BAC4",
+        "color4": "#BDC1CA",
+        "color5": "#CBCFD7",
+        "color6": "#D8DCE3",
+        "color7": "#e6e7ea",
+        "color8": "#a1a1a3",
+        "color9": "#949AA6",
+        "color10": "#A8AEB8",
+        "color11": "#B5BAC4",
+        "color12": "#BDC1CA",
+        "color13": "#CBCFD7",
+        "color14": "#D8DCE3",
+        "color15": "#e6e7ea"
+    }
+}

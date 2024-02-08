@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/media/misc/mario-map-9FE73.png",
+    "alpha": "92",
+    "special": {
+        "background": "#133d1c",
+        "foreground": "#d3d7cd",
+        "cursor": "#d3d7cd"
+    },
+    "colors": {
+        "color0": "#133d1c",
+        "color1": "#AC8D5C",
+        "color2": "#CC9866",
+        "color3": "#4473A0",
+        "color4": "#6996A7",
+        "color5": "#5590CC",
+        "color6": "#6AA3C9",
+        "color7": "#d3d7cd",
+        "color8": "#93968f",
+        "color9": "#AC8D5C",
+        "color10": "#CC9866",
+        "color11": "#4473A0",
+        "color12": "#6996A7",
+        "color13": "#5590CC",
+        "color14": "#6AA3C9",
+        "color15": "#d3d7cd"
+    }
+}

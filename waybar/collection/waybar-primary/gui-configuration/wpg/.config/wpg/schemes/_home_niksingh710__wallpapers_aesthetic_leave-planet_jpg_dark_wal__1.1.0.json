@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/leave-planet.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0a111d",
+        "foreground": "#d4dbe3",
+        "cursor": "#d4dbe3"
+    },
+    "colors": {
+        "color0": "#0a111d",
+        "color1": "#4D5B71",
+        "color2": "#3C5089",
+        "color3": "#4A6091",
+        "color4": "#6E99B3",
+        "color5": "#77ABC4",
+        "color6": "#96AABF",
+        "color7": "#d4dbe3",
+        "color8": "#94999e",
+        "color9": "#4D5B71",
+        "color10": "#3C5089",
+        "color11": "#4A6091",
+        "color12": "#6E99B3",
+        "color13": "#77ABC4",
+        "color14": "#96AABF",
+        "color15": "#d4dbe3"
+    }
+}

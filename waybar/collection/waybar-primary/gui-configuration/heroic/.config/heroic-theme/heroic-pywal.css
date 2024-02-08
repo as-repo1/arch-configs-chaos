@@ -1,0 +1,35 @@
+:root {
+  --accent: #a25156;
+  --accent-overlay: #6f383b;
+  --navbar-accent: #f5a9ad;
+  --background: #011D4A;
+  --body-background: var(--background);
+  --background-darker: var(--body-background);
+  --current-background: var(--body-background);
+  --navbar-background: #011D4A;
+  --navbar-active-background: #011D4A;
+  --gradient-body-background: linear-gradient(
+    90deg,
+    var(--background-darker) -32px,
+    var(--body-background) 64px,
+    var(--body-background) 100%
+  );
+  --input-background: #011D4A;
+  --modal-background: var(--body-background);
+  --modal-border: var(--body-background);
+  --success: #f5a9ad;
+  --success-hover: #7F148E;
+  --primary: #954377;
+  --primary-hover: #C15E6D;
+  --danger: red;
+  --text-log: #8C909B;
+  --text-title: #E9EAEB;
+  --text-default: var(--text-title);
+  --text-secondary: #92A4AB;
+  --osk-background: var(--body-background);
+  --osk-button-background: var(--input-background);
+  --osk-button-border: var(--navbar-background);
+  --action-icon: #92A4AB;
+  --action-icon-hover: var(--accent-overlay);
+  --action-icon-active: var(--text-default);
+}

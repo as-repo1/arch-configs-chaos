@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/lofi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E3668",
+        "foreground": "#c7dfe3",
+        "cursor": "#c7dfe3"
+    },
+    "colors": {
+        "color0": "#0E3668",
+        "color1": "#3293B0",
+        "color2": "#5D93AF",
+        "color3": "#25A2C9",
+        "color4": "#5BB3CA",
+        "color5": "#67C6D6",
+        "color6": "#919CB7",
+        "color7": "#c7dfe3",
+        "color8": "#8b9c9e",
+        "color9": "#3293B0",
+        "color10": "#5D93AF",
+        "color11": "#25A2C9",
+        "color12": "#5BB3CA",
+        "color13": "#67C6D6",
+        "color14": "#919CB7",
+        "color15": "#c7dfe3"
+    }
+}

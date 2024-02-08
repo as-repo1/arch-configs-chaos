@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/unknown-3D23B.png",
+    "alpha": "92",
+    "special": {
+        "background": "#101413",
+        "foreground": "#c2ebcc",
+        "cursor": "#c2ebcc"
+    },
+    "colors": {
+        "color0": "#101413",
+        "color1": "#6A862F",
+        "color2": "#709B57",
+        "color3": "#67DE60",
+        "color4": "#84A162",
+        "color5": "#85D476",
+        "color6": "#68D797",
+        "color7": "#c2ebcc",
+        "color8": "#87a48e",
+        "color9": "#6A862F",
+        "color10": "#709B57",
+        "color11": "#67DE60",
+        "color12": "#84A162",
+        "color13": "#85D476",
+        "color14": "#68D797",
+        "color15": "#c2ebcc"
+    }
+}

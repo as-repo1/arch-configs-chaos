@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+
+primary="DP-1"
+secondary="eDP-1"
+check() {
+	command -v "$1" >/dev/null 2>&1
+}
+
+notify() {
+	check notify-send && notify-send "$@" || echo "$@"
+}
+
+check hyprctl || {
+	notify "hyprctl not found"
+	exit 1
+}
+
+mon_count=$(hyprctl monitors -j | jq ". | length")
+
+# Exit if only one monitor is connected
+if [ "$mon_count" -eq 1 ]; then
+	exit 0
+fi
+
+workspaces_on_primary=($(seq 1 9))
+workspaces_on_secondary=(10)
+
+primary=$(hyprctl monitors -j | jq ".[] | select(.name == \"$primary\") | .name")
+secondary=$(hyprctl monitors -j | jq ".[] | select(.name == \"$secondary\") | .name")
+
+[ -z "$primary" ] && primary=$(hyprctl monitors -j | jq ".[] | select(.id == 0) | .name")
+[ -z "$secondary" ] && secondary=$(hyprctl monitors -j | jq ".[] | select(.id == 0) | .name")
+
+primary=$(echo "$primary" | tr -d '"')
+secondary=$(echo "$secondary" | tr -d '"')
+
+for i in "${workspaces_on_primary[@]}"; do
+	hyprctl dispatch moveworkspacetomonitor "$i" "$primary"
+done
+for i in "${workspaces_on_secondary[@]}"; do
+	hyprctl dispatch moveworkspacetomonitor "$i" "$secondary"
+done
+
+hyprctl dispatch workspace 1
+hyprctl dispatch focusmonitor "$primary"
+
+# clients_to_move=()
+#
+# max=$(("$(hyprctl workspaces -j | jq '. | max_by(.id) | .id')"))
+# for ((i = 10; i <= max; i++)); do
+# 	readarray -t _clients_on_extra < <(hyprctl clients -j |
+# 		jq ".[] | select(.workspace.id==$i)" |
+# 		jq -j '[.class, .title, .address] | @text' |
+# 		sed -z -e 's/]/]\n/g' \
+# 			-e 's/["]//g' \
+# 			-e 's/,/ /g' \
+# 			-e 's/\[//g' \
+# 			-e 's/]//g')
+# 	clients_to_move=("${clients_to_move[@]}" "${_clients_on_extra[@]}")
+# done
+# echo "${clients_to_move[@]}"
+#
+# for i in "${clients_to_move[@]}"; do
+# 	address=$(echo "$i" | awk '{print $NF}')
+# 	hyprctl dispatch movetoworkspace "10,address:$address"
+# done
+#
+# primary=$(hyprctl monitors -j | jq ".[] | select(.name == \"$primary\") | .name")
+# secondary=$(hyprctl monitors -j | jq ".[] | select(.name == \"$secondary\") | .name")
+# [ -z "$primary" ] && primary=$(hyprctl monitors -j | jq ".[] | select(.id == 0) | .name")
+# [ -z "$secondary" ] && secondary=$(hyprctl monitors -j | jq ".[] | select(.id == 0) | .name")
+# primary=$(echo "$primary" | tr -d '"')
+# secondary=$(echo "$secondary" | tr -d '"')
+#
+# str+="dispatch moveworkspacetomonitor \"special:scratchpad\" $primary;"
+# for i in {1..10}; do
+# 	str+="dispatch moveworkspacetomonitor $i $primary;"
+# done
+# if [ -n "$secondary" ]; then
+# 	str+="dispatch moveworkspacetomonitor $i $secondary;"
+# fi
+# hyprctl --batch "$str"
+# hyprctl dispatch workspace 1
+# hyprctl dispatch focusmonitor "$primary"

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/bunny.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101a1b",
+        "foreground": "#ebb2f5",
+        "cursor": "#ebb2f5"
+    },
+    "colors": {
+        "color0": "#101a1b",
+        "color1": "#73458E",
+        "color2": "#7E42A1",
+        "color3": "#843DAE",
+        "color4": "#904DAE",
+        "color5": "#AE57CE",
+        "color6": "#D068EA",
+        "color7": "#ebb2f5",
+        "color8": "#a47cab",
+        "color9": "#73458E",
+        "color10": "#7E42A1",
+        "color11": "#843DAE",
+        "color12": "#904DAE",
+        "color13": "#AE57CE",
+        "color14": "#D068EA",
+        "color15": "#ebb2f5"
+    }
+}

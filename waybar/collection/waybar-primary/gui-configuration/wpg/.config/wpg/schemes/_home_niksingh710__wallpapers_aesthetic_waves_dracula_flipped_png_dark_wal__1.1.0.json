@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/waves_dracula_flipped.png",
+    "alpha": "100",
+    "special": {
+        "background": "#7a4f99",
+        "foreground": "#ddb9f6",
+        "cursor": "#ddb9f6"
+    },
+    "colors": {
+        "color0": "#7a4f99",
+        "color1": "#885DC6",
+        "color2": "#9364D5",
+        "color3": "#9E69E4",
+        "color4": "#AE72F5",
+        "color5": "#C47DFF",
+        "color6": "#CC84FF",
+        "color7": "#ddb9f6",
+        "color8": "#9a81ac",
+        "color9": "#885DC6",
+        "color10": "#9364D5",
+        "color11": "#9E69E4",
+        "color12": "#AE72F5",
+        "color13": "#C47DFF",
+        "color14": "#CC84FF",
+        "color15": "#ddb9f6"
+    }
+}

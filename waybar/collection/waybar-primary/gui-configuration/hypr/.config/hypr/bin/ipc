@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+check() {
+	command -v "$1" &>/dev/null
+}
+
+notify() {
+	check notify-send && notify-send "$@" || echo "$@"
+}
+
+check socat || {
+	notify "socat not available"
+	exit 1
+}
+
+handle() {
+	echo "$line"
+	if [[ ${1:0:12} == "monitoradded" ]]; then
+		# pgrep -x swaylock && kill -s SIGUSR1 $(pgrep -x swaylock)
+		# swaylock -f &
+		"$HOME/.config/waybar/bin/start.sh"
+		"$HOME/.config/hypr/bin/monitor"
+	fi
+	if [[ ${1:0:14} == "monitorremoved" ]]; then
+		# pgrep -x swaylock && kill -s SIGUSR1 $(pgrep -x swaylock)
+		# swaylock -f &
+		"$HOME/.config/waybar/bin/start.sh"
+		"$HOME/.config/hypr/bin/monitor"
+	fi
+}
+
+socat - UNIX-CONNECT:/tmp/hypr/"$HYPRLAND_INSTANCE_SIGNATURE"/.socket2.sock | while read -r line; do handle "$line"; done

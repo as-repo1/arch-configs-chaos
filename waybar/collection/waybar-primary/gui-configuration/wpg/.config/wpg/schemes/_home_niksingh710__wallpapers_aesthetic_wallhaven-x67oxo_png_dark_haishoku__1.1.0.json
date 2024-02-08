@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/wallhaven-x67oxo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#141a1b",
+        "foreground": "#c4c5c6",
+        "cursor": "#c4c5c6"
+    },
+    "colors": {
+        "color0": "#141a1b",
+        "color1": "#06555b",
+        "color2": "#078286",
+        "color3": "#05a6ab",
+        "color4": "#708589",
+        "color5": "#03b8bc",
+        "color6": "#7ba6ac",
+        "color7": "#c4c5c6",
+        "color8": "#4e5354",
+        "color9": "#06555b",
+        "color10": "#078286",
+        "color11": "#05a6ab",
+        "color12": "#708589",
+        "color13": "#03b8bc",
+        "color14": "#7ba6ac",
+        "color15": "#c4c5c6"
+    }
+}

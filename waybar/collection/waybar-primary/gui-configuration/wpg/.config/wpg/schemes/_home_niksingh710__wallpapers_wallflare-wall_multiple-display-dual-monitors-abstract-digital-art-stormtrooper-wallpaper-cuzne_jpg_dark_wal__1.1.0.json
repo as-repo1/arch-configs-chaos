@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/multiple-display-dual-monitors-abstract-digital-art-stormtrooper-wallpaper-cuzne.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#070708",
+        "foreground": "#e5eaea",
+        "cursor": "#e5eaea"
+    },
+    "colors": {
+        "color0": "#070708",
+        "color1": "#6E8D9E",
+        "color2": "#5AE2C3",
+        "color3": "#949494",
+        "color4": "#B7B7B7",
+        "color5": "#B6CAD3",
+        "color6": "#CFCFCF",
+        "color7": "#e5eaea",
+        "color8": "#a0a3a3",
+        "color9": "#6E8D9E",
+        "color10": "#5AE2C3",
+        "color11": "#949494",
+        "color12": "#B7B7B7",
+        "color13": "#B6CAD3",
+        "color14": "#CFCFCF",
+        "color15": "#e5eaea"
+    }
+}

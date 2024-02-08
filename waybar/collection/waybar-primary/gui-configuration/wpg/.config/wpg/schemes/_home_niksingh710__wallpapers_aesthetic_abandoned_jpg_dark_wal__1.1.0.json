@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/abandoned.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1012",
+        "foreground": "#dbd4d0",
+        "cursor": "#dbd4d0"
+    },
+    "colors": {
+        "color0": "#0d1012",
+        "color1": "#504A49",
+        "color2": "#6C615D",
+        "color3": "#877770",
+        "color4": "#95847B",
+        "color5": "#7E7C82",
+        "color6": "#A49893",
+        "color7": "#dbd4d0",
+        "color8": "#999491",
+        "color9": "#504A49",
+        "color10": "#6C615D",
+        "color11": "#877770",
+        "color12": "#95847B",
+        "color13": "#7E7C82",
+        "color14": "#A49893",
+        "color15": "#dbd4d0"
+    }
+}

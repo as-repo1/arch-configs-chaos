@@ -1,0 +1,54 @@
+set highlight-color             "#a25156"
+set highlight-active-color      "#f5a9ad"
+
+set default-bg                  "#011D4A"
+set default-fg                  "#f5a9ad"
+set recolor-lightcolor          "#011D4A"
+set recolor-darkcolor           "#f5a9ad"
+
+set recolor "true"
+set completion-bg "#011D4A"
+set completion-fg "#f5a9ad"
+set completion-group-bg "#011D4A"
+set completion-group-fg "#B15270"
+set completion-highlight-bg "#f5a9ad"
+set completion-highlight-fg "#011D4A"
+set recolor-lightcolor "#011D4A"
+set recolor-darkcolor "#f5a9ad"
+set default-bg "#011D4A"
+set inputbar-bg "#011D4A"
+set inputbar-fg "#f5a9ad"
+set notification-bg "#011D4A"
+set notification-fg "#f5a9ad"
+set notification-error-bg "#954377"
+set notification-error-fg "#f5a9ad"
+set notification-warning-bg "#954377"
+set notification-warning-fg "#f5a9ad"
+set statusbar-bg "#011D4A"
+set statusbar-fg "#f5a9ad"
+set index-bg "#011D4A"
+set index-fg "#f5a9ad"
+set index-active-bg "#f5a9ad"
+set index-active-fg "#011D4A"
+set render-loading-bg "#011D4A"
+set render-loading-fg "#f5a9ad"
+set window-title-home-tilde true
+set statusbar-basename true
+set selection-clipboard clipboard
+
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map R reload
+map r rotate
+map J zoom in
+map K zoom out
+map i recolor
+set recolor                     true

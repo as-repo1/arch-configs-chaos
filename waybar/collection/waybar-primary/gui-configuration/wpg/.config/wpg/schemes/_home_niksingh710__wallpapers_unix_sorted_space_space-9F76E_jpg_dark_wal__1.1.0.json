@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/space/space-9F76E.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0F161E",
+        "foreground": "#96c9ce",
+        "cursor": "#96c9ce"
+    },
+    "colors": {
+        "color0": "#0F161E",
+        "color1": "#595A5A",
+        "color2": "#AF4A54",
+        "color3": "#6BA37C",
+        "color4": "#B1A147",
+        "color5": "#AA4CB7",
+        "color6": "#F605E0",
+        "color7": "#96c9ce",
+        "color8": "#698c90",
+        "color9": "#595A5A",
+        "color10": "#AF4A54",
+        "color11": "#6BA37C",
+        "color12": "#B1A147",
+        "color13": "#AA4CB7",
+        "color14": "#F605E0",
+        "color15": "#96c9ce"
+    }
+}

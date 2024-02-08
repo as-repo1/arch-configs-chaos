@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/glass-sphere.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#06062A",
+        "foreground": "#e6d6e1",
+        "cursor": "#e6d6e1"
+    },
+    "colors": {
+        "color0": "#06062A",
+        "color1": "#4224A8",
+        "color2": "#110BFE",
+        "color3": "#8A12B9",
+        "color4": "#C02ED0",
+        "color5": "#72AAE5",
+        "color6": "#EF9EDE",
+        "color7": "#e6d6e1",
+        "color8": "#a1959d",
+        "color9": "#4224A8",
+        "color10": "#110BFE",
+        "color11": "#8A12B9",
+        "color12": "#C02ED0",
+        "color13": "#72AAE5",
+        "color14": "#EF9EDE",
+        "color15": "#e6d6e1"
+    }
+}

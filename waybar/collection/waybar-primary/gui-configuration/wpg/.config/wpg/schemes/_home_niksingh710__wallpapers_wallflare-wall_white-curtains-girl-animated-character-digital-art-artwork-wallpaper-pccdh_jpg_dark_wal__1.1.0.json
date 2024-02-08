@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/white-curtains-girl-animated-character-digital-art-artwork-wallpaper-pccdh.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#040715",
+        "foreground": "#bcb2ad",
+        "cursor": "#bcb2ad"
+    },
+    "colors": {
+        "color0": "#040715",
+        "color1": "#1B4454",
+        "color2": "#2C4A56",
+        "color3": "#3A5A62",
+        "color4": "#4D5055",
+        "color5": "#666665",
+        "color6": "#8B443F",
+        "color7": "#bcb2ad",
+        "color8": "#837c79",
+        "color9": "#1B4454",
+        "color10": "#2C4A56",
+        "color11": "#3A5A62",
+        "color12": "#4D5055",
+        "color13": "#666665",
+        "color14": "#8B443F",
+        "color15": "#bcb2ad"
+    }
+}

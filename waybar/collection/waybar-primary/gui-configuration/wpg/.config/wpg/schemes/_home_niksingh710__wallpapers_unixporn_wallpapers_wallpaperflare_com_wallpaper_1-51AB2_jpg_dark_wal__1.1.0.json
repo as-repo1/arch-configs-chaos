@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/wallpaperflare.com_wallpaper_1-51AB2.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#060D12",
+        "foreground": "#d8d3d9",
+        "cursor": "#d8d3d9"
+    },
+    "colors": {
+        "color0": "#060D12",
+        "color1": "#A08E98",
+        "color2": "#A89AA4",
+        "color3": "#B3A9AE",
+        "color4": "#D9A296",
+        "color5": "#C3BCA9",
+        "color6": "#C9C3B3",
+        "color7": "#d8d3d9",
+        "color8": "#979397",
+        "color9": "#A08E98",
+        "color10": "#A89AA4",
+        "color11": "#B3A9AE",
+        "color12": "#D9A296",
+        "color13": "#C3BCA9",
+        "color14": "#C9C3B3",
+        "color15": "#d8d3d9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/pink-clouds.png",
+    "alpha": "100",
+    "special": {
+        "background": "#282437",
+        "foreground": "#dcd1d9",
+        "cursor": "#dcd1d9"
+    },
+    "colors": {
+        "color0": "#282437",
+        "color1": "#B38DAE",
+        "color2": "#AAA7BC",
+        "color3": "#C899B7",
+        "color4": "#CFA6BB",
+        "color5": "#CF9FC0",
+        "color6": "#D3AEC6",
+        "color7": "#dcd1d9",
+        "color8": "#9a9297",
+        "color9": "#B38DAE",
+        "color10": "#AAA7BC",
+        "color11": "#C899B7",
+        "color12": "#CFA6BB",
+        "color13": "#CF9FC0",
+        "color14": "#D3AEC6",
+        "color15": "#dcd1d9"
+    }
+}

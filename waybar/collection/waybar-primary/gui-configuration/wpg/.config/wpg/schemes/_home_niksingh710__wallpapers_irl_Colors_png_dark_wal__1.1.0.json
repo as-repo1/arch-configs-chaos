@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/irl/Colors.png",
+    "alpha": "92",
+    "special": {
+        "background": "#121719",
+        "foreground": "#e0cd9d",
+        "cursor": "#e0cd9d"
+    },
+    "colors": {
+        "color0": "#121719",
+        "color1": "#6D5542",
+        "color2": "#655A41",
+        "color3": "#9B6B46",
+        "color4": "#AE6B42",
+        "color5": "#B08949",
+        "color6": "#D69D56",
+        "color7": "#e0cd9d",
+        "color8": "#9c8f6d",
+        "color9": "#6D5542",
+        "color10": "#655A41",
+        "color11": "#9B6B46",
+        "color12": "#AE6B42",
+        "color13": "#B08949",
+        "color14": "#D69D56",
+        "color15": "#e0cd9d"
+    }
+}

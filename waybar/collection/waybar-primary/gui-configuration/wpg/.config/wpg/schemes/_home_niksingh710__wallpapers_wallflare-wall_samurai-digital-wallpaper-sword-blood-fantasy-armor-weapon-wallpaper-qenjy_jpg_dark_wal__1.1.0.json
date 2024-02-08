@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/samurai-digital-wallpaper-sword-blood-fantasy-armor-weapon-wallpaper-qenjy.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#04090B",
+        "foreground": "#e3e8e6",
+        "cursor": "#e3e8e6"
+    },
+    "colors": {
+        "color0": "#04090B",
+        "color1": "#7E7E83",
+        "color2": "#949898",
+        "color3": "#B1B5AF",
+        "color4": "#B9C4BA",
+        "color5": "#BFC4C0",
+        "color6": "#CCD5D0",
+        "color7": "#e3e8e6",
+        "color8": "#9ea2a1",
+        "color9": "#7E7E83",
+        "color10": "#949898",
+        "color11": "#B1B5AF",
+        "color12": "#B9C4BA",
+        "color13": "#BFC4C0",
+        "color14": "#CCD5D0",
+        "color15": "#e3e8e6"
+    }
+}

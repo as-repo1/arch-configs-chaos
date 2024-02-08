@@ -1,0 +1,328 @@
+#!/usr/bin/env bash
+
+# kills any pre running process or this script
+killall -q change-theme
+killall -q setwal
+
+mkdir -p "$HOME/.cache/setwal"
+
+check() {
+	command -v "$1" 1>/dev/null
+}
+
+green="\033[0;32m"
+nocolor="\033[0m"
+wallpath="${WALLPAPERPATH:-"$HOME/.wallpapers"}"
+skip=false
+is_gif=false
+is_gif="$(cat "$HOME/.cache/setwal/is_gif" 2>/dev/null)"
+imgpath=""
+lastwal=""
+
+$is_gif && {
+	lastwal="$(cat "$HOME/.cache/setwal/gif_path" 2>/dev/null)"
+	echo "true" >"$HOME/.cache/setwal/curr_is_gif"
+} || lastwal="$HOME/.wallpaper.png"
+
+ok() {
+	echo -e "[$green  $nocolor] $*"
+}
+
+err() {
+	echo -e "[$green  $nocolor] $*"
+}
+
+# shellcheck disable=SC2120
+loading() {
+	pid=$! # Process Id of the previous running command
+	spin[0]="-"
+	spin[1]="\\"
+	spin[2]="|"
+	spin[3]="/"
+
+	echo -n "$1${spin[0]}"
+	while kill -0 $pid 2>/dev/null; do
+		for i in "${spin[@]}"; do
+			echo -ne "\b$i"
+			sleep 0.1
+		done
+	done
+	echo -ne "\b"
+}
+
+# shellcheck disable=SC2015
+notify() {
+	check notify-send && {
+		setsid notify-send \
+			--hint=string:x-dunst-stack-tag:wallpaper \
+			--hint=string:synchronous:wallpaper \
+			"$@" &>/dev/null
+	} || {
+		echo "$@"
+	}
+}
+notify_err() {
+	check notify-send && {
+		setsid notify-send \
+			--hint=string:x-dunst-stack-tag:wallpaper \
+			--hint=string:synchronous:wallpaper \
+			"$@" &>/dev/null
+	}
+	err "$@"
+}
+notify_ok() {
+	check notify-send && {
+		setsid notify-send \
+			--hint=string:x-dunst-stack-tag:wallpaper \
+			--hint=string:synchronous:wallpaper \
+			"$@" &>/dev/null
+	}
+	ok "$@"
+}
+if ! check swww; then
+	notify_err "swww not found This script requires swww"
+	exit 1
+fi
+if ! check convert; then
+	notify_err "convert not found This script requires convert (GIF conversion and blurring)"
+	notify_err "Install imagemagick"
+	exit 1
+fi
+
+help() {
+	cat <<-EOF
+		This is a wal script by niksingh710.
+
+		ARGS:
+		  -s, --skip : Skips all extra steps and sets only the wallpaper.
+		  -l, --last : sets the last wallpaper
+		      -S, --static : Switchs the gif wallpaper to static (better for battery)
+		  -w, --wallpaper : Takes path to set as wallpaper 
+		                        if invalid image then chooses a random image.
+	EOF
+}
+
+swwwFn() {
+	export SWWW_TRANSITION_FPS=60
+	export SWWW_TRANSITION_STEP=5
+	export SWWW_TRANSITION_TYPE=random
+	swww init &>/dev/null
+	swww img "$1"
+}
+
+getimg() {
+	arg="$(realpath "$1" 2>/dev/null)"
+	file "$arg" | grep -qE 'image|bitmap|GIF' && {
+		echo "$arg"
+		return
+	}
+	# Choosing a random image
+	IFS=$'\n'$'\r'
+	mapfile arr < <(find "$wallpath" -type f \( -iname '*.PNG' -o -iname '*.JPG' -o -iname '*.JPEG' -o -iname '*.GIF' \))
+	realpath "${arr[RANDOM % ${#arr[@]}]}"
+}
+
+blurringWallpaper() {
+	[ -f "$HOME/.wallpaper.png" ] || {
+		notify "Not able to find wallpaper at $HOME/.wallpaper.png"
+		return
+	}
+	notify "Blurring the wallpaper"
+	convert -scale 10% -blur 0x2.5 -resize 1000% "$HOME/.wallpaper.png" "$HOME/.wallpaper.blurr.png"
+}
+
+wpgFn() {
+	check wpg || return
+	notify "Generating Colorscheme... " -i "$HOME/.wallpaper.png" -t 0
+	killall -q wpg
+  wpg -ns "$(readlink $HOME/.wallpaper.png)"
+	notify "Generated Colorscheme" -i "$HOME/.wallpaper.png" -t 0
+}
+
+gtk-settings() {
+
+	[ -f "$HOME/.config/wpg/templates/colors.sh" ] && source "$HOME/.config/wpg/templates/colors.sh" || return
+
+	check gsettings || return
+	gsettings set org.gnome.desktop.interface document-font-name "$font"
+	gsettings set org.gnome.desktop.interface font-name "$font"
+	gsettings set org.gnome.desktop.interface monospace-font-name "$font"
+	gsettings set org.gnome.desktop.interface gtk-theme $gtktheme
+	gsettings set org.gnome.desktop.interface icon-theme $icontheme
+	gsettings set org.gnome.desktop.interface cursor-theme $cursortheme
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+	gsettings set org.gnome.desktop.wm.preferences theme $gtktheme
+
+	gradience_fn
+
+	# gtk4 fix for linea nord
+	cat <<EOF >>"$HOME/.config/gtk-4.0/gtk.css"
+  window {
+    margin: 0px;
+  }
+EOF
+}
+
+ifffox() {
+	check fd || {
+		notify "Make sure fd is present"
+		return
+	}
+
+	loc=$(fd -tf "^bg$" "$HOME/.mozilla")
+	dir="$(dirname $loc)"
+	/usr/bin/cp "$_path" "$loc"
+	/usr/bin/cp "$_path" "$dir/wallpaper.jpg"
+	[ -f "$HOME/.wallpaper.blurr.png" ] && /usr/bin/cp "$HOME/.wallpaper.blurr.png" "$dir/wallpaper.jpg"
+}
+
+zellij-theme() {
+	[ -d "$HOME/.config/zellij" ] || return
+	[ -f "$HOME/.config/wpg/templates/zellij.default.kdl" ] || return
+	[ -f "$HOME/.config/zellij/themes/default.kdl" ] || return
+	sed 's/,/ /g' -i "$HOME/.config/zellij/themes/default.kdl"
+}
+
+extra() {
+	check xrdb && xrdb -merge "$HOME/.Xresources"
+
+	gtk-settings
+
+	check pywalfox && pywalfox update
+	check wal-telegram && wal-telegram --wal -r -g
+	check mako && makoctl reload
+	check pywal-discord && pywal-discord
+  check tmux && tmux source-file "$HOME/.config/tmux/tmux.conf"
+
+	check waybar && {
+		if [ -f "$HOME/.config/waybar/bin/start.sh" ]; then
+			"$HOME/.config/waybar/bin/start.sh"
+		else
+			killall -q waybar
+			waybar &>/dev/null &
+			disown
+		fi
+	}
+
+	check mailspring && {
+		killall -q mailspring
+		mailspring --background &>/dev/null &
+		disown
+	}
+
+	ifffox
+	zellij-theme
+}
+
+wpg-settings() {
+	extra &>/dev/null &
+	# shellcheck disable=SC2015
+	loading && ok "Extra All went Fine" || err "Extra Failed..."
+}
+
+switch_to_static() {
+	# keeping true so that always know that the wallpaper was a gif
+	echo "true" >"$HOME/.cache/setwal/is_gif"
+	# shellcheck disable=SC2015
+	swwwFn "$HOME/.wallpaper.png" &>/dev/null && {
+		echo "false" >"$HOME/.cache/setwal/curr_is_gif"
+		notify "Image setted successfully" -i "$HOME/.wallpaper.png"
+	} || {
+		notify "Make sure swww is working fine!!"
+	}
+}
+lastwallpaper() {
+	# shellcheck disable=SC2015
+	swwwFn "$lastwal" &>/dev/null && {
+		notify "Image setted successfully" -i "$HOME/.wallpaper.png"
+	} || {
+		notify "Make sure swww is working fine!!"
+	}
+}
+
+# -------------- work
+getArgs() {
+	while [ "$#" -gt 0 ]; do
+		case "$1" in
+		-s | --skip)
+			skip=true
+			;;
+		-S | --static)
+			switch_to_static
+			exit 0
+			;;
+		-l | --last)
+			lastwallpaper
+			exit
+			;;
+		-w | --wallpaper)
+			imgpath="$(getimg "$2")"
+			shift
+			;;
+		-h | --help)
+			help
+			exit
+			;;
+		*)
+			help
+			echo ""
+			echo "Wrong argument given"
+			exit 1
+			;;
+		esac
+		shift
+	done
+}
+
+if [ "$#" -gt 0 ]; then
+	getArgs "$@"
+fi
+
+if [ -z "$imgpath" ]; then
+	imgpath="$(getimg)"
+fi
+
+if file "$imgpath" | grep -qE 'GIF'; then
+	imgpath="$(realpath "$imgpath")"
+	notify_ok "Image is a gif"
+	name="gif$(echo "$imgpath" | sed 's/\//-/g')"
+	name="${name%.*}.png"
+	if [ -f "$HOME/.cache/setwal/$name" ]; then
+		notify_ok "Gif is already cached"
+	else
+		notify_ok "Caching gif"
+		# shellcheck disable=SC1087
+		convert "$imgpath[0]" "$HOME/.cache/setwal/$name"
+		notify_ok "Gif cached"
+	fi
+	echo "true" >"$HOME/.cache/setwal/is_gif"
+	echo "$imgpath" >"$HOME/.cache/setwal/gif_path"
+	ln -sf "$HOME/.cache/setwal/$name" "$HOME/.wallpaper.png"
+	echo "true" >"$HOME/.cache/setwal/curr_is_gif"
+else
+	echo "false" >"$HOME/.cache/setwal/is_gif"
+	echo "false" >"$HOME/.cache/setwal/curr_is_gif"
+	ln -sf "$imgpath" "$HOME/.wallpaper.png"
+fi
+
+# shellcheck disable=SC2015
+notify "Setting Wallpaper" -i "$HOME/.wallpaper.png"
+swwwFn "$imgpath" &>/dev/null && {
+	notify "Image setted successfully" -i "$HOME/.wallpaper.png"
+} || {
+	notify "Make sure swww is working fine!!"
+}
+
+blurringWallpaper
+
+# shellcheck disable=SC2015
+$skip && exit
+
+wpgFn &>/dev/null &
+
+# shellcheck disable=SC2015
+loading && {
+	ok "Generated Colorschemes Using wpg"
+	wpg-settings
+	notify "Setted all Extra Stuff" "Whole system Refactored" -i "$HOME/.wallpaper.png"
+} || err "Wpg Faced Error"

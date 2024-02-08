@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/nature/water/wp2-61ED6.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#201d11",
+        "foreground": "#c2c9cb",
+        "cursor": "#c2c9cb"
+    },
+    "colors": {
+        "color0": "#201d11",
+        "color1": "#3A7991",
+        "color2": "#4E7B8F",
+        "color3": "#B27885",
+        "color4": "#3D849D",
+        "color5": "#508599",
+        "color6": "#6495A8",
+        "color7": "#c2c9cb",
+        "color8": "#878c8e",
+        "color9": "#3A7991",
+        "color10": "#4E7B8F",
+        "color11": "#B27885",
+        "color12": "#3D849D",
+        "color13": "#508599",
+        "color14": "#6495A8",
+        "color15": "#c2c9cb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/demon.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151219",
+        "foreground": "#ecd5cf",
+        "cursor": "#ecd5cf"
+    },
+    "colors": {
+        "color0": "#151219",
+        "color1": "#A70F64",
+        "color2": "#EB105C",
+        "color3": "#F5156B",
+        "color4": "#DF5F6A",
+        "color5": "#42638B",
+        "color6": "#A76190",
+        "color7": "#ecd5cf",
+        "color8": "#a59590",
+        "color9": "#A70F64",
+        "color10": "#EB105C",
+        "color11": "#F5156B",
+        "color12": "#DF5F6A",
+        "color13": "#42638B",
+        "color14": "#A76190",
+        "color15": "#ecd5cf"
+    }
+}

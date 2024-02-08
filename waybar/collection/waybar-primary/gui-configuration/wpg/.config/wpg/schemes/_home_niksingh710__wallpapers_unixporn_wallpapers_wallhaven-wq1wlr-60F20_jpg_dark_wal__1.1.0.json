@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/wallhaven-wq1wlr-60F20.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0e2042",
+        "foreground": "#dccbe3",
+        "cursor": "#dccbe3"
+    },
+    "colors": {
+        "color0": "#0e2042",
+        "color1": "#4D46B9",
+        "color2": "#5D47B8",
+        "color3": "#6D50D1",
+        "color4": "#6558DF",
+        "color5": "#9766EE",
+        "color6": "#C57AF8",
+        "color7": "#dccbe3",
+        "color8": "#9a8e9e",
+        "color9": "#4D46B9",
+        "color10": "#5D47B8",
+        "color11": "#6D50D1",
+        "color12": "#6558DF",
+        "color13": "#9766EE",
+        "color14": "#C57AF8",
+        "color15": "#dccbe3"
+    }
+}

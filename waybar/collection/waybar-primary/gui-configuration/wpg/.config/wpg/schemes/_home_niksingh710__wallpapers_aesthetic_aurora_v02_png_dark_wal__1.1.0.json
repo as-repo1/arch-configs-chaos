@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/aurora_v02.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121219",
+        "foreground": "#dee4c8",
+        "cursor": "#dee4c8"
+    },
+    "colors": {
+        "color0": "#121219",
+        "color1": "#ABC47D",
+        "color2": "#3E7B82",
+        "color3": "#646C8B",
+        "color4": "#6B9AA9",
+        "color5": "#A5A19A",
+        "color6": "#B5CEA3",
+        "color7": "#dee4c8",
+        "color8": "#9b9f8c",
+        "color9": "#ABC47D",
+        "color10": "#3E7B82",
+        "color11": "#646C8B",
+        "color12": "#6B9AA9",
+        "color13": "#A5A19A",
+        "color14": "#B5CEA3",
+        "color15": "#dee4c8"
+    }
+}

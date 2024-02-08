@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/pastel-japanese-temple.png",
+    "alpha": "100",
+    "special": {
+        "background": "#11151f",
+        "foreground": "#c9d4bc",
+        "cursor": "#c9d4bc"
+    },
+    "colors": {
+        "color0": "#11151f",
+        "color1": "#606670",
+        "color2": "#877C77",
+        "color3": "#BC9077",
+        "color4": "#5C7190",
+        "color5": "#6A84A0",
+        "color6": "#96AC9D",
+        "color7": "#c9d4bc",
+        "color8": "#8c9483",
+        "color9": "#606670",
+        "color10": "#877C77",
+        "color11": "#BC9077",
+        "color12": "#5C7190",
+        "color13": "#6A84A0",
+        "color14": "#96AC9D",
+        "color15": "#c9d4bc"
+    }
+}

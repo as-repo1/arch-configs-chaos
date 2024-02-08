@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/irl/lantern.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0c0c0f",
+        "foreground": "#e2c29b",
+        "cursor": "#e2c29b"
+    },
+    "colors": {
+        "color0": "#0c0c0f",
+        "color1": "#4C3528",
+        "color2": "#30492E",
+        "color3": "#61522A",
+        "color4": "#5A594C",
+        "color5": "#965E27",
+        "color6": "#B86131",
+        "color7": "#e2c29b",
+        "color8": "#9e876c",
+        "color9": "#4C3528",
+        "color10": "#30492E",
+        "color11": "#61522A",
+        "color12": "#5A594C",
+        "color13": "#965E27",
+        "color14": "#B86131",
+        "color15": "#e2c29b"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/rad_samurai.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#131213",
+        "foreground": "#a3d9d2",
+        "cursor": "#a3d9d2"
+    },
+    "colors": {
+        "color0": "#131213",
+        "color1": "#D30C03",
+        "color2": "#208A71",
+        "color3": "#568B71",
+        "color4": "#9D9C69",
+        "color5": "#2FAA94",
+        "color6": "#33CBB1",
+        "color7": "#a3d9d2",
+        "color8": "#729793",
+        "color9": "#D30C03",
+        "color10": "#208A71",
+        "color11": "#568B71",
+        "color12": "#9D9C69",
+        "color13": "#2FAA94",
+        "color14": "#33CBB1",
+        "color15": "#a3d9d2"
+    }
+}

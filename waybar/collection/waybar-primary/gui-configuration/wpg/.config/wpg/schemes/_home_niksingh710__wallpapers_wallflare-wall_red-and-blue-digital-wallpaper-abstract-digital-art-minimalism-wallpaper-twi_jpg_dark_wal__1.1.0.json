@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/red-and-blue-digital-wallpaper-abstract-digital-art-minimalism-wallpaper-twi.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0D1A1B",
+        "foreground": "#e3a58e",
+        "cursor": "#e3a58e"
+    },
+    "colors": {
+        "color0": "#0D1A1B",
+        "color1": "#700C25",
+        "color2": "#2C494A",
+        "color3": "#9E031E",
+        "color4": "#D20116",
+        "color5": "#EB0212",
+        "color6": "#D71222",
+        "color7": "#e3a58e",
+        "color8": "#9e7363",
+        "color9": "#700C25",
+        "color10": "#2C494A",
+        "color11": "#9E031E",
+        "color12": "#D20116",
+        "color13": "#EB0212",
+        "color14": "#D71222",
+        "color15": "#e3a58e"
+    }
+}

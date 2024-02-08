@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/hyprland/wall_anime2_8K.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101010",
+        "foreground": "#e0eee8",
+        "cursor": "#e0eee8"
+    },
+    "colors": {
+        "color0": "#101010",
+        "color1": "#566BAE",
+        "color2": "#49A4C1",
+        "color3": "#C6B3BE",
+        "color4": "#AAE5D4",
+        "color5": "#FCD4CC",
+        "color6": "#CFCEF1",
+        "color7": "#e0eee8",
+        "color8": "#9ca6a2",
+        "color9": "#566BAE",
+        "color10": "#49A4C1",
+        "color11": "#C6B3BE",
+        "color12": "#AAE5D4",
+        "color13": "#FCD4CC",
+        "color14": "#CFCEF1",
+        "color15": "#e0eee8"
+    }
+}

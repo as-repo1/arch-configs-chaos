@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/pink-katana.png",
+    "alpha": "92",
+    "special": {
+        "background": "#241b24",
+        "foreground": "#f6dedf",
+        "cursor": "#f6dedf"
+    },
+    "colors": {
+        "color0": "#241b24",
+        "color1": "#CD9C9B",
+        "color2": "#D5AFB0",
+        "color3": "#E4B8B8",
+        "color4": "#DFC4B9",
+        "color5": "#E2BDC3",
+        "color6": "#FDCDCE",
+        "color7": "#f6dedf",
+        "color8": "#ac9b9c",
+        "color9": "#CD9C9B",
+        "color10": "#D5AFB0",
+        "color11": "#E4B8B8",
+        "color12": "#DFC4B9",
+        "color13": "#E2BDC3",
+        "color14": "#FDCDCE",
+        "color15": "#f6dedf"
+    }
+}

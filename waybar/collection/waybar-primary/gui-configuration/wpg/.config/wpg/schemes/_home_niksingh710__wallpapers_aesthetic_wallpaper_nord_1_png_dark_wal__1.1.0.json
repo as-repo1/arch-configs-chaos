@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/wallpaper_nord_1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b0e0d",
+        "foreground": "#ebe2ce",
+        "cursor": "#ebe2ce"
+    },
+    "colors": {
+        "color0": "#1b0e0d",
+        "color1": "#A08965",
+        "color2": "#A88C6C",
+        "color3": "#C39E62",
+        "color4": "#707A87",
+        "color5": "#A79F9D",
+        "color6": "#C7B9A4",
+        "color7": "#ebe2ce",
+        "color8": "#a49e90",
+        "color9": "#A08965",
+        "color10": "#A88C6C",
+        "color11": "#C39E62",
+        "color12": "#707A87",
+        "color13": "#A79F9D",
+        "color14": "#C7B9A4",
+        "color15": "#ebe2ce"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/nature/mountains/wp1880387-7B5A9.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0a1012",
+        "foreground": "#d1dbe4",
+        "cursor": "#d1dbe4"
+    },
+    "colors": {
+        "color0": "#0a1012",
+        "color1": "#E58D5E",
+        "color2": "#57718C",
+        "color3": "#7389A4",
+        "color4": "#98A1B6",
+        "color5": "#DCB0A0",
+        "color6": "#A0B2C9",
+        "color7": "#d1dbe4",
+        "color8": "#92999f",
+        "color9": "#E58D5E",
+        "color10": "#57718C",
+        "color11": "#7389A4",
+        "color12": "#98A1B6",
+        "color13": "#DCB0A0",
+        "color14": "#A0B2C9",
+        "color15": "#d1dbe4"
+    }
+}

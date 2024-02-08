@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/ign_colorful.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1a1e25",
+        "foreground": "#c4ced7",
+        "cursor": "#c4ced7"
+    },
+    "colors": {
+        "color0": "#1a1e25",
+        "color1": "#C66F6C",
+        "color2": "#BD857F",
+        "color3": "#CF8670",
+        "color4": "#5B7091",
+        "color5": "#9F758D",
+        "color6": "#6F98B9",
+        "color7": "#c4ced7",
+        "color8": "#899096",
+        "color9": "#C66F6C",
+        "color10": "#BD857F",
+        "color11": "#CF8670",
+        "color12": "#5B7091",
+        "color13": "#9F758D",
+        "color14": "#6F98B9",
+        "color15": "#c4ced7"
+    }
+}

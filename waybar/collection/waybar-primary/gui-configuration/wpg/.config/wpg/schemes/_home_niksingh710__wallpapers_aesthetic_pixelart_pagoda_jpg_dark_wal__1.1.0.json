@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/pixelart_pagoda.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1014",
+        "foreground": "#e2d8d6",
+        "cursor": "#e2d8d6"
+    },
+    "colors": {
+        "color0": "#0E1014",
+        "color1": "#848B61",
+        "color2": "#15639D",
+        "color3": "#5E728F",
+        "color4": "#E06198",
+        "color5": "#6A86A3",
+        "color6": "#A1A1A3",
+        "color7": "#e2d8d6",
+        "color8": "#9e9795",
+        "color9": "#848B61",
+        "color10": "#15639D",
+        "color11": "#5E728F",
+        "color12": "#E06198",
+        "color13": "#6A86A3",
+        "color14": "#A1A1A3",
+        "color15": "#e2d8d6"
+    }
+}

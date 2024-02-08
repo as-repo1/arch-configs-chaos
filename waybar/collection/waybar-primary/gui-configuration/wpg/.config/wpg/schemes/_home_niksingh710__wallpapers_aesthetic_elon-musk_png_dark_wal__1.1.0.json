@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/elon-musk.png",
+    "alpha": "92",
+    "special": {
+        "background": "#0e0e0e",
+        "foreground": "#cdcc87",
+        "cursor": "#cdcc87"
+    },
+    "colors": {
+        "color0": "#0e0e0e",
+        "color1": "#6B6B6B",
+        "color2": "#827F1E",
+        "color3": "#8C8B1D",
+        "color4": "#8E8D1F",
+        "color5": "#848421",
+        "color6": "#939221",
+        "color7": "#cdcc87",
+        "color8": "#8f8e5e",
+        "color9": "#6B6B6B",
+        "color10": "#827F1E",
+        "color11": "#8C8B1D",
+        "color12": "#8E8D1F",
+        "color13": "#848421",
+        "color14": "#939221",
+        "color15": "#cdcc87"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/Trex.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#000000",
+        "foreground": "#d3cdcb",
+        "cursor": "#d3cdcb"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#695A55",
+        "color2": "#B65452",
+        "color3": "#946957",
+        "color4": "#C7934E",
+        "color5": "#895397",
+        "color6": "#1BBCC7",
+        "color7": "#d3cdcb",
+        "color8": "#938f8e",
+        "color9": "#695A55",
+        "color10": "#B65452",
+        "color11": "#946957",
+        "color12": "#C7934E",
+        "color13": "#895397",
+        "color14": "#1BBCC7",
+        "color15": "#d3cdcb"
+    }
+}

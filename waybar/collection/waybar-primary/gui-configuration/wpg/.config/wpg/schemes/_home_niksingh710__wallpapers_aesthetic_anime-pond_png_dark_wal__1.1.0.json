@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/anime-pond.png",
+    "alpha": "100",
+    "special": {
+        "background": "#251d37",
+        "foreground": "#d8d0dd",
+        "cursor": "#d8d0dd"
+    },
+    "colors": {
+        "color0": "#251d37",
+        "color1": "#CA75BF",
+        "color2": "#A5979F",
+        "color3": "#AAB588",
+        "color4": "#B5CB8D",
+        "color5": "#BCC9AD",
+        "color6": "#CEEAA6",
+        "color7": "#d8d0dd",
+        "color8": "#97919a",
+        "color9": "#CA75BF",
+        "color10": "#A5979F",
+        "color11": "#AAB588",
+        "color12": "#B5CB8D",
+        "color13": "#BCC9AD",
+        "color14": "#CEEAA6",
+        "color15": "#d8d0dd"
+    }
+}

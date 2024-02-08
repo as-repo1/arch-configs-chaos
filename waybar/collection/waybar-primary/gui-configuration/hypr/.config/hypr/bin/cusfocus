@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+[ $# -eq 0 ] && {
+	echo "invalid move"
+}
+
+[ "$1" = "cyclenext" ] && {
+	arg="none"
+	[ -z "$2" ] || arg="prev"
+	hyprctl dispatch cyclenext "$arg"
+	exit
+}
+
+[[ "$1" =~ ^(l|r|u|d)$ ]] && {
+	[ "$(hyprctl activewindow -j | jq '.floating')" = true ] && {
+		arg=none
+		[[ "$1" =~ ^(l|u)$ ]] && arg='prev'
+		hyprctl dispatch cyclenext "$arg"
+		hyprctl dispatch swapnext "$arg"
+		hyprctl dispatch bringactivetotop none
+	} || {
+		hyprctl dispatch movefocus "$1"
+		hyprctl dispatch bringactivetotop none
+	}
+}

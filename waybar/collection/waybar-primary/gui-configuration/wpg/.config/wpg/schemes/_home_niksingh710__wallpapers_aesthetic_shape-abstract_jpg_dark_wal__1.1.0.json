@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/shape-abstract.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0f101f",
+        "foreground": "#f6d777",
+        "cursor": "#f6d777"
+    },
+    "colors": {
+        "color0": "#0f101f",
+        "color1": "#CF5D51",
+        "color2": "#F25C52",
+        "color3": "#F26A52",
+        "color4": "#B38C1B",
+        "color5": "#D2A118",
+        "color6": "#FAB812",
+        "color7": "#f6d777",
+        "color8": "#ac9653",
+        "color9": "#CF5D51",
+        "color10": "#F25C52",
+        "color11": "#F26A52",
+        "color12": "#B38C1B",
+        "color13": "#D2A118",
+        "color14": "#FAB812",
+        "color15": "#f6d777"
+    }
+}

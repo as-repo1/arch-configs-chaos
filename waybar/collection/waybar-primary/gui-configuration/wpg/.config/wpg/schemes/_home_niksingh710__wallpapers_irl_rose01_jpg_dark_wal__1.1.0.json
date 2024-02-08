@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/irl/rose01.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#181b1b",
+        "foreground": "#a3b1b7",
+        "cursor": "#a3b1b7"
+    },
+    "colors": {
+        "color0": "#181b1b",
+        "color1": "#8F342A",
+        "color2": "#944F2D",
+        "color3": "#9A6D36",
+        "color4": "#8B7852",
+        "color5": "#A4853C",
+        "color6": "#A0905B",
+        "color7": "#a3b1b7",
+        "color8": "#727b80",
+        "color9": "#8F342A",
+        "color10": "#944F2D",
+        "color11": "#9A6D36",
+        "color12": "#8B7852",
+        "color13": "#A4853C",
+        "color14": "#A0905B",
+        "color15": "#a3b1b7"
+    }
+}

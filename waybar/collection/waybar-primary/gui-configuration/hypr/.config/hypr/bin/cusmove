@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+check() {
+	command -v "$1" >/dev/null 2>&1
+}
+
+notify() {
+	check notify-send && notify-send "$@" || echo "$@"
+}
+
+check jq || {
+	notify "jq not found"
+	exit 1
+}
+
+_curr_win_state=$(hyprctl activewindow -j | jq -r '.floating')
+val=50
+
+getVal() {
+	case "$1" in
+	"r")
+		echo "$val 0"
+		;;
+	"d")
+		echo "0 $val"
+		;;
+	"l")
+		echo "-$val 0"
+		;;
+	"u")
+		echo "0 -$val"
+		;;
+	esac
+}
+
+if [ $# -eq 0 ]; then
+	echo "No arguments provided"
+	exit 1
+fi
+
+if [[ $_curr_win_state == "true" ]]; then
+	# shellcheck disable=SC2046
+	hyprctl dispatch moveactive $(getVal "$1")
+else
+	hyprctl dispatch movewindow "$1"
+fi

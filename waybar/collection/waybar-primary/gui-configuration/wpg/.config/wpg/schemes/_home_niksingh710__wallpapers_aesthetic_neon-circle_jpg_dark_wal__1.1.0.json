@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/neon-circle.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#00001B",
+        "foreground": "#d197e2",
+        "cursor": "#d197e2"
+    },
+    "colors": {
+        "color0": "#00001B",
+        "color1": "#64039F",
+        "color2": "#7A4EBD",
+        "color3": "#5E22CF",
+        "color4": "#544EE6",
+        "color5": "#9C05A2",
+        "color6": "#DC0FA5",
+        "color7": "#d197e2",
+        "color8": "#92699e",
+        "color9": "#64039F",
+        "color10": "#7A4EBD",
+        "color11": "#5E22CF",
+        "color12": "#544EE6",
+        "color13": "#9C05A2",
+        "color14": "#DC0FA5",
+        "color15": "#d197e2"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/nord-chainsaw.png",
+    "alpha": "92",
+    "special": {
+        "background": "#1b1f27",
+        "foreground": "#b7c6d7",
+        "cursor": "#b7c6d7"
+    },
+    "colors": {
+        "color0": "#1b1f27",
+        "color1": "#597395",
+        "color2": "#6A829E",
+        "color3": "#5E81AC",
+        "color4": "#7090B5",
+        "color5": "#7F9FC0",
+        "color6": "#AAA0A4",
+        "color7": "#b7c6d7",
+        "color8": "#808a96",
+        "color9": "#597395",
+        "color10": "#6A829E",
+        "color11": "#5E81AC",
+        "color12": "#7090B5",
+        "color13": "#7F9FC0",
+        "color14": "#AAA0A4",
+        "color15": "#b7c6d7"
+    }
+}

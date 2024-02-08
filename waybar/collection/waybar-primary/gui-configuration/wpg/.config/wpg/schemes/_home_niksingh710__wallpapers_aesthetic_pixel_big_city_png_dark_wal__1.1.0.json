@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/pixel_big_city.png",
+    "alpha": "92",
+    "special": {
+        "background": "#17131e",
+        "foreground": "#c8c1cb",
+        "cursor": "#c8c1cb"
+    },
+    "colors": {
+        "color0": "#17131e",
+        "color1": "#995360",
+        "color2": "#C7956E",
+        "color3": "#4A4D9F",
+        "color4": "#655C95",
+        "color5": "#8D6A94",
+        "color6": "#8B68C3",
+        "color7": "#c8c1cb",
+        "color8": "#8c878e",
+        "color9": "#995360",
+        "color10": "#C7956E",
+        "color11": "#4A4D9F",
+        "color12": "#655C95",
+        "color13": "#8D6A94",
+        "color14": "#8B68C3",
+        "color15": "#c8c1cb"
+    }
+}

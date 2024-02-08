@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic-wallpapers/images/dark_skulls.png",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#82ebf0",
+        "cursor": "#82ebf0"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#C8B55D",
+        "color2": "#2C5BB2",
+        "color3": "#F111F7",
+        "color4": "#BB4BE6",
+        "color5": "#099F9E",
+        "color6": "#3BB2BB",
+        "color7": "#82ebf0",
+        "color8": "#5ba4a8",
+        "color9": "#C8B55D",
+        "color10": "#2C5BB2",
+        "color11": "#F111F7",
+        "color12": "#BB4BE6",
+        "color13": "#099F9E",
+        "color14": "#3BB2BB",
+        "color15": "#82ebf0"
+    }
+}

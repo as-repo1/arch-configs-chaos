@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/landscape2.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0E101E",
+        "foreground": "#dbc5d4",
+        "cursor": "#dbc5d4"
+    },
+    "colors": {
+        "color0": "#0E101E",
+        "color1": "#625264",
+        "color2": "#996E7B",
+        "color3": "#605E91",
+        "color4": "#4A56A7",
+        "color5": "#8E7592",
+        "color6": "#957BBE",
+        "color7": "#dbc5d4",
+        "color8": "#998994",
+        "color9": "#625264",
+        "color10": "#996E7B",
+        "color11": "#605E91",
+        "color12": "#4A56A7",
+        "color13": "#8E7592",
+        "color14": "#957BBE",
+        "color15": "#dbc5d4"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/irl/street.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#091212",
+        "foreground": "#e9dccf",
+        "cursor": "#e9dccf"
+    },
+    "colors": {
+        "color0": "#091212",
+        "color1": "#92735B",
+        "color2": "#5D8D4E",
+        "color3": "#A58D70",
+        "color4": "#CA9E71",
+        "color5": "#AD9C8C",
+        "color6": "#D2B197",
+        "color7": "#e9dccf",
+        "color8": "#a39a90",
+        "color9": "#92735B",
+        "color10": "#5D8D4E",
+        "color11": "#A58D70",
+        "color12": "#CA9E71",
+        "color13": "#AD9C8C",
+        "color14": "#D2B197",
+        "color15": "#e9dccf"
+    }
+}

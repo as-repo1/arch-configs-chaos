@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/gruvboxenhanced1-F7588.png",
+    "alpha": "92",
+    "special": {
+        "background": "#21252d",
+        "foreground": "#d4d7dd",
+        "cursor": "#d4d7dd"
+    },
+    "colors": {
+        "color0": "#21252d",
+        "color1": "#A5A19A",
+        "color2": "#9499A5",
+        "color3": "#9CA2AF",
+        "color4": "#AEB0B5",
+        "color5": "#C2C0BB",
+        "color6": "#B7BECC",
+        "color7": "#d4d7dd",
+        "color8": "#94969a",
+        "color9": "#A5A19A",
+        "color10": "#9499A5",
+        "color11": "#9CA2AF",
+        "color12": "#AEB0B5",
+        "color13": "#C2C0BB",
+        "color14": "#B7BECC",
+        "color15": "#d4d7dd"
+    }
+}

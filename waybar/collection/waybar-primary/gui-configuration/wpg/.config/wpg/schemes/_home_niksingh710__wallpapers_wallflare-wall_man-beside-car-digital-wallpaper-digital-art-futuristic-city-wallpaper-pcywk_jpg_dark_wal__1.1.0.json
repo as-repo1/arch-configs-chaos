@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/man-beside-car-digital-wallpaper-digital-art-futuristic-city-wallpaper-pcywk.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0c060f",
+        "foreground": "#95c6d2",
+        "cursor": "#95c6d2"
+    },
+    "colors": {
+        "color0": "#0c060f",
+        "color1": "#084756",
+        "color2": "#1C5462",
+        "color3": "#555F68",
+        "color4": "#95676E",
+        "color5": "#385998",
+        "color6": "#AF3FBC",
+        "color7": "#95c6d2",
+        "color8": "#688a93",
+        "color9": "#084756",
+        "color10": "#1C5462",
+        "color11": "#555F68",
+        "color12": "#95676E",
+        "color13": "#385998",
+        "color14": "#AF3FBC",
+        "color15": "#95c6d2"
+    }
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+loc="$HOME/.config/hypr/bin"
+
+[ -f "$loc/list-client-stdout" ] || exit
+hash rofi 2>/dev/null || exit
+
+killall -q rofi && exit
+
+out=$("$loc/list-client-stdout" \
+| rofi -dmenu -p "Kill:" \
+| awk '{print $3}')
+
+[ -z "$out" ] || kill -9 "$out" && echo "none selected"
+
+# vim: ft=sh

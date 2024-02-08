@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/orbit.png",
+    "alpha": "92",
+    "special": {
+        "background": "#12121b",
+        "foreground": "#c1e4e7",
+        "cursor": "#c1e4e7"
+    },
+    "colors": {
+        "color0": "#12121b",
+        "color1": "#39429D",
+        "color2": "#5E5791",
+        "color3": "#595EFB",
+        "color4": "#A993AB",
+        "color5": "#D4C0AD",
+        "color6": "#8BD8DA",
+        "color7": "#c1e4e7",
+        "color8": "#879fa1",
+        "color9": "#39429D",
+        "color10": "#5E5791",
+        "color11": "#595EFB",
+        "color12": "#A993AB",
+        "color13": "#D4C0AD",
+        "color14": "#8BD8DA",
+        "color15": "#c1e4e7"
+    }
+}

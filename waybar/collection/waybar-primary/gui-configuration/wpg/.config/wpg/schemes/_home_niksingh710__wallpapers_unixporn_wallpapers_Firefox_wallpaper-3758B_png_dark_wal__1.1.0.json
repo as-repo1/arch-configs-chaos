@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/Firefox_wallpaper-3758B.png",
+    "alpha": "92",
+    "special": {
+        "background": "#0f0e11",
+        "foreground": "#c6c6c7",
+        "cursor": "#c6c6c7"
+    },
+    "colors": {
+        "color0": "#0f0e11",
+        "color1": "#CA464A",
+        "color2": "#739551",
+        "color3": "#86B05C",
+        "color4": "#794786",
+        "color5": "#8C499D",
+        "color6": "#8E4AA0",
+        "color7": "#c6c6c7",
+        "color8": "#8a8a8b",
+        "color9": "#CA464A",
+        "color10": "#739551",
+        "color11": "#86B05C",
+        "color12": "#794786",
+        "color13": "#8C499D",
+        "color14": "#8E4AA0",
+        "color15": "#c6c6c7"
+    }
+}

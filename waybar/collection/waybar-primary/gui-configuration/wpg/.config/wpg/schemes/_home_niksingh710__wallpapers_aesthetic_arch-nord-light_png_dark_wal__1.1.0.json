@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/arch-nord-light.png",
+    "alpha": "92",
+    "special": {
+        "background": "#11131e",
+        "foreground": "#eef1f4",
+        "cursor": "#eef1f4"
+    },
+    "colors": {
+        "color0": "#11131e",
+        "color1": "#BABEC6",
+        "color2": "#D3D6DC",
+        "color3": "#EEF3FA",
+        "color4": "#EEF3FA",
+        "color5": "#EFF4F9",
+        "color6": "#EFF4FB",
+        "color7": "#eef1f4",
+        "color8": "#a6a8aa",
+        "color9": "#BABEC6",
+        "color10": "#D3D6DC",
+        "color11": "#EEF3FA",
+        "color12": "#EEF3FA",
+        "color13": "#EFF4F9",
+        "color14": "#EFF4FB",
+        "color15": "#eef1f4"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/space/silhouette_night_starry_sky_151193_3840x24-78F32.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#030207",
+        "foreground": "#a1c9e8",
+        "cursor": "#a1c9e8"
+    },
+    "colors": {
+        "color0": "#030207",
+        "color1": "#2B4CA7",
+        "color2": "#505D98",
+        "color3": "#2459D8",
+        "color4": "#3D52D3",
+        "color5": "#9762DC",
+        "color6": "#6399EF",
+        "color7": "#a1c9e8",
+        "color8": "#708ca2",
+        "color9": "#2B4CA7",
+        "color10": "#505D98",
+        "color11": "#2459D8",
+        "color12": "#3D52D3",
+        "color13": "#9762DC",
+        "color14": "#6399EF",
+        "color15": "#a1c9e8"
+    }
+}

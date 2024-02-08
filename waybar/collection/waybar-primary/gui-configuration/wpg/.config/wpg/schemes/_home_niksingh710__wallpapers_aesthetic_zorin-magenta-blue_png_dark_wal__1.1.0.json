@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/zorin-magenta-blue.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0E1A",
+        "foreground": "#d1d0ed",
+        "cursor": "#d1d0ed"
+    },
+    "colors": {
+        "color0": "#0E0E1A",
+        "color1": "#69678C",
+        "color2": "#7977A1",
+        "color3": "#817EA9",
+        "color4": "#8986B4",
+        "color5": "#A29FD3",
+        "color6": "#B5B2EC",
+        "color7": "#d1d0ed",
+        "color8": "#9291a5",
+        "color9": "#69678C",
+        "color10": "#7977A1",
+        "color11": "#817EA9",
+        "color12": "#8986B4",
+        "color13": "#A29FD3",
+        "color14": "#B5B2EC",
+        "color15": "#d1d0ed"
+    }
+}

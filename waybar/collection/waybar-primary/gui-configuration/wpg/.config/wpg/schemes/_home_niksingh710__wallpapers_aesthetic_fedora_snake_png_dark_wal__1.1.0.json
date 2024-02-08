@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/fedora_snake.png",
+    "alpha": "100",
+    "special": {
+        "background": "#190f11",
+        "foreground": "#8dc7c5",
+        "cursor": "#8dc7c5"
+    },
+    "colors": {
+        "color0": "#190f11",
+        "color1": "#2D7A78",
+        "color2": "#2D807F",
+        "color3": "#2D8280",
+        "color4": "#2D8583",
+        "color5": "#2C8F8D",
+        "color6": "#2D9491",
+        "color7": "#8dc7c5",
+        "color8": "#628b89",
+        "color9": "#2D7A78",
+        "color10": "#2D807F",
+        "color11": "#2D8280",
+        "color12": "#2D8583",
+        "color13": "#2C8F8D",
+        "color14": "#2D9491",
+        "color15": "#8dc7c5"
+    }
+}

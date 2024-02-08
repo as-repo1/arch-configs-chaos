@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/thousand-sunny-one-piece-manga-backgrounds-illustration-sky-wallpaper-sasq.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#022838",
+        "foreground": "#d3cfc7",
+        "cursor": "#d3cfc7"
+    },
+    "colors": {
+        "color0": "#022838",
+        "color1": "#9A6950",
+        "color2": "#79827B",
+        "color3": "#C18D6E",
+        "color4": "#1B5E93",
+        "color5": "#37669E",
+        "color6": "#5B9EC7",
+        "color7": "#d3cfc7",
+        "color8": "#93908b",
+        "color9": "#9A6950",
+        "color10": "#79827B",
+        "color11": "#C18D6E",
+        "color12": "#1B5E93",
+        "color13": "#37669E",
+        "color14": "#5B9EC7",
+        "color15": "#d3cfc7"
+    }
+}

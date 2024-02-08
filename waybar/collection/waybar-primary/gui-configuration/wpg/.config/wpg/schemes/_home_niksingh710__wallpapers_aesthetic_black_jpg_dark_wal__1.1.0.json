@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/black.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#111c22",
+        "foreground": "#b6c8d8",
+        "cursor": "#b6c8d8"
+    },
+    "colors": {
+        "color0": "#111c22",
+        "color1": "#BD626B",
+        "color2": "#C4626D",
+        "color3": "#5A769B",
+        "color4": "#B9768A",
+        "color5": "#5D81AB",
+        "color6": "#6687AE",
+        "color7": "#b6c8d8",
+        "color8": "#7f8c97",
+        "color9": "#BD626B",
+        "color10": "#C4626D",
+        "color11": "#5A769B",
+        "color12": "#B9768A",
+        "color13": "#5D81AB",
+        "color14": "#6687AE",
+        "color15": "#b6c8d8"
+    }
+}

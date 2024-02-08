@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/wide_nebula.png",
+    "alpha": "100",
+    "special": {
+        "background": "#04091A",
+        "foreground": "#aad2e6",
+        "cursor": "#aad2e6"
+    },
+    "colors": {
+        "color0": "#04091A",
+        "color1": "#334E9F",
+        "color2": "#485EB0",
+        "color3": "#3752C1",
+        "color4": "#5272CD",
+        "color5": "#8672E6",
+        "color6": "#6798DD",
+        "color7": "#aad2e6",
+        "color8": "#7693a1",
+        "color9": "#334E9F",
+        "color10": "#485EB0",
+        "color11": "#3752C1",
+        "color12": "#5272CD",
+        "color13": "#8672E6",
+        "color14": "#6798DD",
+        "color15": "#aad2e6"
+    }
+}

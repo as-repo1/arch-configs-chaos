@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/Black-panther.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0A0212",
+        "foreground": "#7ef0f4",
+        "cursor": "#7ef0f4"
+    },
+    "colors": {
+        "color0": "#0A0212",
+        "color1": "#181294",
+        "color2": "#3D3DBC",
+        "color3": "#9F1CDB",
+        "color4": "#18A3F0",
+        "color5": "#4BA8DA",
+        "color6": "#1AD9FA",
+        "color7": "#7ef0f4",
+        "color8": "#58a8aa",
+        "color9": "#181294",
+        "color10": "#3D3DBC",
+        "color11": "#9F1CDB",
+        "color12": "#18A3F0",
+        "color13": "#4BA8DA",
+        "color14": "#1AD9FA",
+        "color15": "#7ef0f4"
+    }
+}

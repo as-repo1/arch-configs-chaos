@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/man-walking-towards-place-covered-in-fire-digital-wallpaper-middle-earth-shadow-of-mordor-wallpaper-zb.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0E0D19",
+        "foreground": "#cdc5bb",
+        "cursor": "#cdc5bb"
+    },
+    "colors": {
+        "color0": "#0E0D19",
+        "color1": "#716F68",
+        "color2": "#B8674D",
+        "color3": "#8A7769",
+        "color4": "#7D8176",
+        "color5": "#998A77",
+        "color6": "#D89E6E",
+        "color7": "#cdc5bb",
+        "color8": "#8f8982",
+        "color9": "#716F68",
+        "color10": "#B8674D",
+        "color11": "#8A7769",
+        "color12": "#7D8176",
+        "color13": "#998A77",
+        "color14": "#D89E6E",
+        "color15": "#cdc5bb"
+    }
+}

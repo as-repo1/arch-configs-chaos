@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/minimal-purple.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0d0d12",
+        "foreground": "#d7c6f6",
+        "cursor": "#d7c6f6"
+    },
+    "colors": {
+        "color0": "#0d0d12",
+        "color1": "#8D77BC",
+        "color2": "#7194E1",
+        "color3": "#7AA3F7",
+        "color4": "#A292E6",
+        "color5": "#B998F5",
+        "color6": "#82ABFF",
+        "color7": "#d7c6f6",
+        "color8": "#968aac",
+        "color9": "#8D77BC",
+        "color10": "#7194E1",
+        "color11": "#7AA3F7",
+        "color12": "#A292E6",
+        "color13": "#B998F5",
+        "color14": "#82ABFF",
+        "color15": "#d7c6f6"
+    }
+}

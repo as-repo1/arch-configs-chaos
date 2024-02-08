@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/odysee.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#11071b",
+        "foreground": "#f1d0da",
+        "cursor": "#f1d0da"
+    },
+    "colors": {
+        "color0": "#11071b",
+        "color1": "#C47CA1",
+        "color2": "#9C82AE",
+        "color3": "#B58BAF",
+        "color4": "#CA92B1",
+        "color5": "#DAA1BB",
+        "color6": "#D0A7C2",
+        "color7": "#f1d0da",
+        "color8": "#a89198",
+        "color9": "#C47CA1",
+        "color10": "#9C82AE",
+        "color11": "#B58BAF",
+        "color12": "#CA92B1",
+        "color13": "#DAA1BB",
+        "color14": "#D0A7C2",
+        "color15": "#f1d0da"
+    }
+}

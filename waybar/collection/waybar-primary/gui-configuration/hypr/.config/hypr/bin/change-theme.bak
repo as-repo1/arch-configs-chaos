@@ -1,0 +1,257 @@
+#!/usr/bin/env bash
+
+killall -q change-theme
+killall -q setwal
+
+check() {
+	command -v "$1" 1>/dev/null
+}
+
+# shellcheck disable=SC2015
+notify() {
+	check notify-send && {
+		setsid notify-send \
+			--hint=string:x-dunst-stack-tag:wallpaper \
+			--hint=string:synchronous:wallpaper \
+			"$@" &>/dev/null
+	} || {
+		echo "$@"
+	}
+}
+
+ok() {
+	echo -e "[$green  $nocolor] $*"
+}
+
+err() {
+	echo -e "[$green  $nocolor] $*"
+}
+
+# Variables
+_wallpath="$HOME/.wallpapers/"
+rootmgr="sudo"
+_cmd="wbg"
+
+skip=false
+
+green="\033[0;32m"
+nocolor="\033[0m"
+
+check doas && rootmgr="doas"
+check swww && _cmd="swwwFn" # if swww then executing swww function
+
+help() {
+	cat <<-EOF
+		This is a wal script by niksingh710.
+
+		ARGS:
+		  -s, --skip : Skips all extra steps and sets only the wallpaper.
+		  -t, --tool : Prints the tool binary name to be used to set wallpaper.
+		  -w, --wallpaper : Takes path to set as wallpaper 
+		                        if invalid image then chooses a random image.
+		  -tf, --toolforce : Forces the tool to be used to set wal
+	EOF
+}
+
+# shellcheck disable=SC2120
+loading() {
+	pid=$! # Process Id of the previous running command
+	spin[0]="-"
+	spin[1]="\\"
+	spin[2]="|"
+	spin[3]="/"
+
+	echo -n "$1${spin[0]}"
+	while kill -0 $pid 2>/dev/null; do
+		for i in "${spin[@]}"; do
+			echo -ne "\b$i"
+			sleep 0.1
+		done
+	done
+	echo -ne "\b"
+}
+
+swwwFn() {
+	export SWWW_TRANSITION_FPS=60
+	export SWWW_TRANSITION_STEP=5
+	export SWWW_TRANSITION_TYPE=random
+	swww init &>/dev/null
+	swww img "$1"
+}
+
+getimg() {
+	ipath="$(realpath "$1" 2>/dev/null)"
+	file "$ipath" | grep -qE 'image|bitmap|GIF' && {
+		echo "$ipath"
+		return
+	}
+	IFS=$'\n'$'\r'
+	wallpath="${WALLPATH:-$_wallpath}"
+	mapfile arr < <(find "$wallpath" -type f \( -iname '*.PNG' -o -iname '*.JPG' -o -iname '*.JPEG' -o -iname '*.GIF' \))
+	realpath "${arr[RANDOM % ${#arr[@]}]}"
+}
+
+tool() {
+	echo "$_cmd" is going to be used
+	exit
+}
+
+# Extra fns
+
+ifffox() {
+	check fd || {
+		notify "Make sure fd is present"
+		return
+	}
+	loc=$(fd -tf "^bg$" "$HOME/.mozilla")
+	dir="$(dirname $loc)"
+	/usr/bin/cp "$_path" "$loc"
+	/usr/bin/cp "$_path" "$dir/wallpaper.jpg"
+	[ -f "$HOME/.wallpaper.blurr.png" ] && /usr/bin/cp "$HOME/.wallpaper.blurr.png" "$dir/wallpaper.jpg"
+}
+wpgFn() {
+	check wpg || return
+	notify "Generating Colorscheme... " -i "$_path" -t 0
+	killall -q wpg
+	wpg -ns "$_path"
+	notify "Generated Colorscheme" -i "$_path" -t 0
+}
+
+gtk-settings() {
+
+	[ -f "$HOME/.config/wpg/templates/colors.sh" ] && source "$HOME/.config/wpg/templates/colors.sh" || return
+
+	check gsettings || return
+	gsettings set org.gnome.desktop.interface document-font-name "$font"
+	gsettings set org.gnome.desktop.interface font-name "$font"
+	gsettings set org.gnome.desktop.interface monospace-font-name "$font"
+	gsettings set org.gnome.desktop.interface gtk-theme $gtktheme
+	gsettings set org.gnome.desktop.interface icon-theme $icontheme
+	gsettings set org.gnome.desktop.interface cursor-theme $cursortheme
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+	gsettings set org.gnome.desktop.wm.preferences theme $gtktheme
+
+	gradience_fn
+
+	# gtk4 fix for linea nord
+	cat <<EOF >>"$HOME/.config/gtk-4.0/gtk.css"
+  window {
+    margin: 0px;
+  }
+EOF
+}
+
+zellij-theme() {
+	[ -d "$HOME/.config/zellij" ] || return
+	[ -f "$HOME/.config/wpg/templates/zellij.default.kdl" ] || return
+	[ -f "$HOME/.config/zellij/themes/default.kdl" ] || return
+	sed 's/,/ /g' -i "$HOME/.config/zellij/themes/default.kdl"
+}
+
+gradience_fn() {
+	check gradience-cli || return
+	[ -f "$HOME/.wallpaper.png" ] || {
+		notify "Gradience" "Not able to find wallpaper at $HOME/.wallpaper.png"
+		return
+	}
+	gradience-cli monet -p "$HOME/.wallpaper.png" --tone 80 --theme dark -n wal || notify "Gradience" "Failed to generate pallete"
+	gradience-cli apply -n wal --gtk both || notify "Gradience" "Failed to apply pallete"
+}
+
+blurringWallpaper() {
+	check convert || {
+		notify "convert command not avaialble" "Make sure imagemagick is installed"
+		return
+	}
+	[ -f "$HOME/.wallpaper.png" ] || {
+		notify "Not able to find wallpaper at $HOME/.wallpaper.png"
+		return
+	}
+	notify "Blurring the wallpaper"
+	convert -scale 10% -blur 0x2.5 -resize 1000% "$HOME/.wallpaper.png" "$HOME/.wallpaper.blurr.png"
+}
+
+extra() {
+	blurringWallpaper
+	check xrdb && xrdb -merge "$HOME/.Xresources"
+	gtk-settings
+	check pywalfox && pywalfox update
+	check wal-telegram && wal-telegram --wal -r -g
+	check mako && makoctl reload
+	check pywal-discord && pywal-discord
+	check waybar && {
+		if [ -f "$HOME/.config/waybar/bin/start.sh" ]; then
+			"$HOME/.config/waybar/bin/start.sh"
+		else
+			killall -q waybar
+			waybar &>/dev/null &
+			disown
+		fi
+	}
+	check mailspring && {
+		killall -q mailspring
+		mailspring --background &>/dev/null &
+		disown
+	}
+	ifffox
+	zellij-theme
+}
+
+wpg-settings() {
+	# shellcheck disable=SC2015
+	extra &>/dev/null &
+	loading && ok "Extra All went Fine" || err "Extra Failed..."
+}
+
+getArgs() {
+	while [ "$#" -gt 0 ]; do
+		case "$1" in
+		-s | --skip)
+			skip=true
+			;;
+		-t | --tool)
+			tool
+			;;
+		-tf | --toolforce)
+			_cmd="$2"
+			shift
+			;;
+		-w | --wallpaper)
+			_path="$(getimg "$2")"
+			shift
+			;;
+		-h | --help)
+			help
+			exit
+			;;
+		*)
+			help
+			echo ""
+			echo "Wrong argument given"
+			exit 1
+			;;
+		esac
+		shift
+	done
+}
+
+[ $# -eq 0 ] || getArgs "$@"
+
+[ -z "$_path" ] && _path="$(getimg)"
+
+$_cmd "$_path" &>/dev/null && {
+	notify "Image setted successfully" -i "$_path"
+	ln -sf "$_path" ~/.wallpaper.png
+} || {
+	notify "Make sure $_cmd is working fine!!"
+}
+
+$skip && exit 0
+
+wpgFn &>/dev/null &
+# shellcheck disable=SC2015
+loading && {
+	ok "Generated Colorschemes Using wpg"
+	wpg-settings
+	notify "Setted all Extra Stuff" "Whole system Refactored" -i "$_path"
+} || err "Wpg Faced Error"

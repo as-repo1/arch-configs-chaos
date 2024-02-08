@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/linux-penguin.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#dfdfde",
+        "cursor": "#dfdfde"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#FFE303",
+        "color2": "#FDDE2C",
+        "color3": "#E3CA39",
+        "color4": "#8F8F8F",
+        "color5": "#B1B1B1",
+        "color6": "#FDF1A6",
+        "color7": "#dfdfde",
+        "color8": "#9c9c9b",
+        "color9": "#FFE303",
+        "color10": "#FDDE2C",
+        "color11": "#E3CA39",
+        "color12": "#8F8F8F",
+        "color13": "#B1B1B1",
+        "color14": "#FDF1A6",
+        "color15": "#dfdfde"
+    }
+}

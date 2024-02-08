@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unix_sorted/plain/gradient-5-D4F7C.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#6b3244",
+        "foreground": "#d9c4e7",
+        "cursor": "#d9c4e7"
+    },
+    "colors": {
+        "color0": "#6b3244",
+        "color1": "#CF99A8",
+        "color2": "#B28FD3",
+        "color3": "#9C92E6",
+        "color4": "#AE95E7",
+        "color5": "#C998D3",
+        "color6": "#D5B0CD",
+        "color7": "#d9c4e7",
+        "color8": "#9789a1",
+        "color9": "#CF99A8",
+        "color10": "#B28FD3",
+        "color11": "#9C92E6",
+        "color12": "#AE95E7",
+        "color13": "#C998D3",
+        "color14": "#D5B0CD",
+        "color15": "#d9c4e7"
+    }
+}

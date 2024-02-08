@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+check(){
+  command -v "$1" 1>/dev/null
+}
+rootmgr="sudo"
+check doas && rootmgr="doas"
+
+state="$(lsmod | grep uvcvideo)"
+
+[ -z "$state" ] && {
+	notify-send "Enabling camera module: uncvideo" "If fails to work check root permissions"
+	$rootmgr modprobe -a uvcvideo
+} || {
+	notify-send "Disabling camera module: uncvideo" "If fails to work check root permissions"
+	$rootmgr rmmod -f uvcvideo
+}
+pkill -RTMIN+3 waybar

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/hyprland/wall_8K.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101010",
+        "foreground": "#d9e6ea",
+        "cursor": "#d9e6ea"
+    },
+    "colors": {
+        "color0": "#101010",
+        "color1": "#00D5D8",
+        "color2": "#00E5D2",
+        "color3": "#00C8E6",
+        "color4": "#00E9E3",
+        "color5": "#9BAFB4",
+        "color6": "#B6D0D1",
+        "color7": "#d9e6ea",
+        "color8": "#97a1a3",
+        "color9": "#00D5D8",
+        "color10": "#00E5D2",
+        "color11": "#00C8E6",
+        "color12": "#00E9E3",
+        "color13": "#9BAFB4",
+        "color14": "#B6D0D1",
+        "color15": "#d9e6ea"
+    }
+}

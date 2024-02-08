@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/wallflare-wall/neon-4k-hd-best-for-desktop-wallpaper-tzqva.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#18030c",
+        "foreground": "#f2aecb",
+        "cursor": "#f2aecb"
+    },
+    "colors": {
+        "color0": "#18030c",
+        "color1": "#691949",
+        "color2": "#4E2546",
+        "color3": "#6F254D",
+        "color4": "#982358",
+        "color5": "#CD2965",
+        "color6": "#BB1B98",
+        "color7": "#f2aecb",
+        "color8": "#a9798e",
+        "color9": "#691949",
+        "color10": "#4E2546",
+        "color11": "#6F254D",
+        "color12": "#982358",
+        "color13": "#CD2965",
+        "color14": "#BB1B98",
+        "color15": "#f2aecb"
+    }
+}

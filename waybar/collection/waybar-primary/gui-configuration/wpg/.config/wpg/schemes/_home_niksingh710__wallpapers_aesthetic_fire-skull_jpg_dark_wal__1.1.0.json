@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/fire-skull.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d12",
+        "foreground": "#efccab",
+        "cursor": "#efccab"
+    },
+    "colors": {
+        "color0": "#0d0d12",
+        "color1": "#A16A4C",
+        "color2": "#BB7751",
+        "color3": "#B38C57",
+        "color4": "#DA8C5B",
+        "color5": "#FD9E64",
+        "color6": "#DDAF67",
+        "color7": "#efccab",
+        "color8": "#a78e77",
+        "color9": "#A16A4C",
+        "color10": "#BB7751",
+        "color11": "#B38C57",
+        "color12": "#DA8C5B",
+        "color13": "#FD9E64",
+        "color14": "#DDAF67",
+        "color15": "#efccab"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/unixporn_wallpapers/wallhaven-429p9n-B2AC6.png",
+    "alpha": "92",
+    "special": {
+        "background": "#04152C",
+        "foreground": "#d4d9df",
+        "cursor": "#d4d9df"
+    },
+    "colors": {
+        "color0": "#04152C",
+        "color1": "#778A9E",
+        "color2": "#8A98AC",
+        "color3": "#999CAA",
+        "color4": "#95A5B9",
+        "color5": "#9CAEC2",
+        "color6": "#ACB7C7",
+        "color7": "#d4d9df",
+        "color8": "#94979c",
+        "color9": "#778A9E",
+        "color10": "#8A98AC",
+        "color11": "#999CAA",
+        "color12": "#95A5B9",
+        "color13": "#9CAEC2",
+        "color14": "#ACB7C7",
+        "color15": "#d4d9df"
+    }
+}

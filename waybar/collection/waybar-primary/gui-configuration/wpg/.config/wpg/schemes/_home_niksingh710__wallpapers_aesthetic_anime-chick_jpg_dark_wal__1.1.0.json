@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/anime-chick.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0B17",
+        "foreground": "#c9c3c5",
+        "cursor": "#c9c3c5"
+    },
+    "colors": {
+        "color0": "#0C0B17",
+        "color1": "#665961",
+        "color2": "#A14B58",
+        "color3": "#234BAA",
+        "color4": "#335BB2",
+        "color5": "#A37185",
+        "color6": "#3C8DD1",
+        "color7": "#c9c3c5",
+        "color8": "#8c8889",
+        "color9": "#665961",
+        "color10": "#A14B58",
+        "color11": "#234BAA",
+        "color12": "#335BB2",
+        "color13": "#A37185",
+        "color14": "#3C8DD1",
+        "color15": "#c9c3c5"
+    }
+}

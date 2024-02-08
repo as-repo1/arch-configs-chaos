@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/puppy.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101821",
+        "foreground": "#ebdcbd",
+        "cursor": "#ebdcbd"
+    },
+    "colors": {
+        "color0": "#101821",
+        "color1": "#996F73",
+        "color2": "#C48F76",
+        "color3": "#687186",
+        "color4": "#7496AF",
+        "color5": "#A69BA3",
+        "color6": "#ACB5B4",
+        "color7": "#ebdcbd",
+        "color8": "#a49a84",
+        "color9": "#996F73",
+        "color10": "#C48F76",
+        "color11": "#687186",
+        "color12": "#7496AF",
+        "color13": "#A69BA3",
+        "color14": "#ACB5B4",
+        "color15": "#ebdcbd"
+    }
+}

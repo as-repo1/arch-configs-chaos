@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/.wallpapers/aesthetic/neocity2.jpg",
+    "alpha": "92",
+    "special": {
+        "background": "#0D1919",
+        "foreground": "#acc9df",
+        "cursor": "#acc9df"
+    },
+    "colors": {
+        "color0": "#0D1919",
+        "color1": "#37566A",
+        "color2": "#4C5F6C",
+        "color3": "#B54D48",
+        "color4": "#386196",
+        "color5": "#4C7191",
+        "color6": "#CC7F86",
+        "color7": "#acc9df",
+        "color8": "#788c9c",
+        "color9": "#37566A",
+        "color10": "#4C5F6C",
+        "color11": "#B54D48",
+        "color12": "#386196",
+        "color13": "#4C7191",
+        "color14": "#CC7F86",
+        "color15": "#acc9df"
+    }
+}

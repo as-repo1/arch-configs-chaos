@@ -1,0 +1,95 @@
+/* others */
+@define-color background #282a36;
+@define-color foreground #f8f8f2;
+
+/* black */
+@define-color black #21222c;
+@define-color black_alt #4d4d4d;
+
+/* red */
+@define-color red #ff5555;
+@define-color red_alt #ff6e67;
+
+/* green */
+@define-color green #50fa7b;
+@define-color green_alt #5af78e;
+
+/* yellow */
+@define-color yellow #f1fa8c;
+@define-color yellow_alt #f4f99d;
+
+/* blue */
+@define-color blue #bd93f9;
+@define-color blue_alt #caa9fa;
+
+/* magenta/orange */
+@define-color magenta #ff79c6;
+@define-color magenta_alt #ff92d0;
+
+/* cyan */
+@define-color cyan #8be9fd;
+@define-color cyan_alt #9aedfe;
+
+/* white */
+@define-color white #bfbfbf;
+@define-color white_alt #e6e6e6;
+
+window {
+    margin: 0px;
+    padding: 10px;
+    background-color: @background;
+    border-radius: 30px;
+    border: 2px solid @black;
+}
+
+#input {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    color: @foreground;
+    background-color: @black;
+    border-radius: 30px;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: @background;
+    border-radius: 30px;
+}
+
+#outer-box {
+    margin: 15px;
+    border: none;
+    background-color: @background;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: @foreground;
+} 
+
+#entry {
+    padding: 10px 16px;
+}
+
+#entry:selected {
+    background-color: @black_alt;
+    border-radius: 20px;
+    outline: none;
+}
+
+#entry:selected * {
+    background-color: @black_alt;
+    border-radius: 20px;
+    outline: none;
+}
+
+#img {
+}

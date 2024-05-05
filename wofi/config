@@ -1,0 +1,12 @@
+width=20%
+height=28%
+prompt=Ara...
+x=768
+y=200
+hide_scroll=true
+location=0
+allow_images=true
+allow_markup=true
+term=wezterm
+insensitive=true
+no_actions=true

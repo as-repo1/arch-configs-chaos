@@ -1,4 +1,4 @@
-//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
+//all the modules are here dude!!
 
 {
 // HYPRLAND WORKSPACES. CHOOSE as desired and place on waybar configs
@@ -55,7 +55,38 @@
     },
 },
 
-// ROMANP Numerals style
+
+// ROMANP own style
+"hyprland/workspaces#own": {
+    "active-only":false,
+    "all-outputs": false, //true for showing all-outputs
+    "format": "{icon}",
+    "show-special": false,
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "VI",
+      "7": "VII",
+      "8": "VIII",
+      "9": "",
+      "10": "",
+      "focused": "",
+      "default": "",
+//      "urgent": "",
+//      "active": "",
+//      "default": ""
+    },
+},
+
+
+// ROMANP own style
 "hyprland/workspaces#romanp": {
     "active-only":false,
     "all-outputs": false, //true for showing all-outputs
@@ -67,14 +98,14 @@
 
     "format-icons": {
       "1": " ",
-      "2": "med",
+      "2": "study",
       "3": "term",
       "4": "file",
       "5": "vim",
       "6": "www",
-      "7": "VII",
+      "7": "abc",
       "8": "virt",
-      "9": "tele",
+      "9": "chat",
       "10": "xyz",
 
 //      "urgent": "",
